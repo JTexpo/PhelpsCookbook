@@ -1,0 +1,20 @@
+{
+    "id":"vegan-chili",
+    "name":"Vegan Chili",
+    "author":"Justin Esposito",
+    "ingredients":[
+        "Fajita Veggies",
+        "Refried Beans",
+        "Black Beans",
+        "Soup Mix Veggies",
+        "Pasta Sauce",
+        "Harissa",
+        "Garlic",
+        "Spices"
+    ],
+    "steps":[
+        "Set crockpot to 8 -> 10 hours",
+        "Add all ingredients to crockpot",
+        "Serve with a bread or rice"
+    ]
+}

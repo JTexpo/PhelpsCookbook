@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phelps Cookbook</title>
+
+    <!-- import bootstrap style -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container recipe-page">
+
+        <!-- Header -->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>Phelps Cookbook</h1>
+                <button onclick="
+                const params = new URLSearchParams(window.location.search); 
+                params.delete('name'); 
+                window.location.href = '../index.html?' + params.toString();
+                ">
+                    ← Back to Recipes
+                </button>
+            </div>
+        </div>
+
+        <!-- Recipe Title -->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h2 id="recipe-name"></h2>
+            </div>
+        </div>
+
+        <!-- Image -->
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <img id="recipe-image" class="img-responsive recipe-image">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-left">
+                <h5 id="author"></h5>
+            </div>
+        </div>
+        
+        <!-- Ingredients & Steps -->
+        <div class="row recipe-content">
+            <div class="col-sm-5">
+                <h3>Ingredients</h3>
+                <ul id="ingredients-list"></ul>
+            </div>
+
+            <div class="col-sm-7">
+                <h3>Instructions</h3>
+                <ol id="steps-list"></ol>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>

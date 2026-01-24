@@ -1,0 +1,200 @@
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+/* -----------------------------------
+   Cozy Cookbook Theme
+   ----------------------------------- */
+
+/* Base page styling */
+body {
+    background-color: #f6f1e7; /* warm parchment */
+    background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+    background-size: 4px 4px;
+    color: #4b3b2a;
+    font-family: serif;
+    line-height: 1.6;
+}
+
+/* Container feels like a book page */
+.container {
+    background-color: #fffaf1;
+    border: 1px solid #e3d8c8;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+/* -----------------------------------
+   Typography
+   ----------------------------------- */
+
+h1 {
+    font-family: serif;
+    font-size: 3em;
+    color: #6b4f2c;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 1.6em;
+    color: #7a5a36;
+    border-bottom: 2px solid #e0d2bf;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-weight: 600;
+    color: #6b4f2c;
+    margin-top: 15px;
+}
+
+/* -----------------------------------
+   Ingredients Section
+   ----------------------------------- */
+
+#ingredients {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#ingredients li {
+    padding: 6px 0;
+    border-bottom: 1px dashed #d8c9b5;
+    font-size: 0.95em;
+}
+
+/* -----------------------------------
+   Weekly Meals Section
+   ----------------------------------- */
+
+#weekly-meals {
+    background-color: #fdf8f0;
+    border-left: 1px solid #e6d9c7;
+    border-right: 1px solid #e6d9c7;
+    padding: 15px 25px;
+}
+#ingredients-main {
+    background-color: #fdf8f0;
+    border-left: 1px solid #e6d9c7;
+    border-right: 1px solid #e6d9c7;
+    padding: 15px 25px;
+}
+
+/* Collapsible buttons styled like recipe tabs */
+button.collapsible {
+    width: 100%;
+    text-align: left;
+    background-color: #e9dcc8;
+    border: 1px solid #d2c1aa;
+    color: #5a4126;
+    padding: 10px 14px;
+    font-family: serif;
+    font-size: 1.1em;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 8px;
+    transition: background-color 0.2s ease;
+}
+
+button.collapsible:hover {
+    background-color: #e2d2bb;
+}
+
+/* Content inside collapsibles */
+.content {
+    padding: 0rem 1rem;
+    background-color: #fffaf1;
+    border-left: 3px solid #c9b18c;
+    /* margin-bottom: 15px; */
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/* -----------------------------------
+   Navigation / Buttons
+   ----------------------------------- */
+
+button {
+    background-color: #c9a66b; /* warm gold */
+    border: none;
+    color: #fff;
+    padding: 10px 18px;
+    font-family: serif;
+    font-size: 0.95em;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    /* width: 100%; */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #b89356;
+    transform: translateY(-1px);
+}
+
+/* -----------------------------------
+   Subtle finishing touches
+   ----------------------------------- */
+
+/* Horizontal spacing refinement */
+.row {
+    margin-bottom: 10px;
+}
+
+/* Gentle divider look */
+hr {
+    border: none;
+    border-top: 1px solid #e0d2bf;
+    margin: 25px 0;
+}
+
+/* Make links feel gentle and respectful */
+a {
+    color: #7a5a36;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.toast {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background: #5a3e2b;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-family: serif;
+}
+
+.toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}

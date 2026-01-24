@@ -1,0 +1,160 @@
+/* -----------------------------------
+   Cozy Cookbook Theme
+   ----------------------------------- */
+
+/* Base page styling */
+body {
+    background-color: #f6f1e7; /* warm parchment */
+    background-image: radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px);
+    background-size: 4px 4px;
+    color: #4b3b2a;
+    font-family: serif;
+    line-height: 1.6;
+}
+
+
+/* Container feels like a book page */
+.container {
+    background-color: #fffaf1;
+    border: 1px solid #e3d8c8;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+
+/* -----------------------------------
+   Typography
+   ----------------------------------- */
+
+h1 {
+    font-family: serif;
+    font-size: 3em;
+    color: #6b4f2c;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 1.6em;
+    color: #7a5a36;
+    border-bottom: 2px solid #e0d2bf;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-weight: 600;
+    color: #6b4f2c;
+    margin-top: 15px;
+}
+
+/* -----------------------------------
+   Navigation / Buttons
+   ----------------------------------- */
+
+button {
+    background-color: #c9a66b; /* warm gold */
+    border: none;
+    color: #fff;
+    padding: 10px 18px;
+    font-family: serif;
+    font-size: 0.95em;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    /* width: 100%; */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #b89356;
+    transform: translateY(-1px);
+}
+
+/* Horizontal spacing refinement */
+.row {
+    margin-bottom: 10px;
+}
+
+/* Gentle divider look */
+hr {
+    border: none;
+    border-top: 1px solid #e0d2bf;
+    margin: 25px 0;
+}
+
+/* Make links feel gentle and respectful */
+a {
+    color: #7a5a36;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* -----------------------------------
+   Footer
+   ----------------------------------- */
+
+#all-meals ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#all-meals li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #d8c9b5;
+    font-size: 1.05em;
+}
+
+#all-meals a {
+    color: #6b4f2c;
+    font-family: serif;
+}
+
+#all-meals a:hover {
+    text-decoration: underline;
+}
+
+
+
+.recipe-card {
+    background-color: #fffaf1;
+    border: 1px solid #e3d8c8;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.recipe-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+}
+
+.recipe-card img {
+    border-radius: 4px;
+    margin-bottom: 10px;
+    max-height: 180px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.recipe-card h3 {
+    font-family: serif;
+    font-size: 1.2em;
+    color: #6b4f2c;
+    margin: 8px 0 4px;
+}
+
+.recipe-hint {
+    font-size: 0.9em;
+    color: #8a6a44;
+}
