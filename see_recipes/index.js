@@ -1,6 +1,6 @@
 import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
 
-function loadAllRecipies() {
+function loadAllrecipes() {
     const allMeals = document.getElementById("all-meals");
     allMeals.replaceChildren();
 
@@ -21,7 +21,7 @@ function loadAllRecipies() {
                     const params = new URLSearchParams(window.location.search); 
                     params.delete('name'); 
                     params.set('name', data.id);
-                    window.location.href = `../recipie/index.html?`+ params.toString();
+                    window.location.href = `../recipe/index.html?`+ params.toString();
                 };
 
                 const img = document.createElement("img");
@@ -48,4 +48,4 @@ function loadAllRecipies() {
     });
 }
 
-loadAllRecipies();
+loadAllrecipes();

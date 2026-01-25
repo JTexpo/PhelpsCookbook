@@ -342,7 +342,7 @@ function updateWeeklyMeals(weeklyMeals) {
                             const params = new URLSearchParams(window.location.search); 
                             params.delete('name'); 
                             params.set('name', data.id);
-                            window.location.href = `./recipie/index.html?`+ params.toString();
+                            window.location.href = `./recipe/index.html?`+ params.toString();
                          });
 
                         const removeButton = document.createElement("button");
