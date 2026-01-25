@@ -1,0 +1,20 @@
+{
+    "id":"eggroll-in-a-bowl",
+    "name":"Eggroll in a Bowl",
+    "author":"Chari Crawley",
+    "ingredients":[
+        "Sausage",
+        "Dry Coleslaw",
+        "Black Beans",
+        "Garlic",
+        "Ground Ginger",
+        "Soy Sauce",
+        "Green Onion"
+    ],
+    "steps":[
+        "In a large, deep skillet, brown 1 lb of sausage.",
+        "Meanwhile in a small bowl, combine 5 cloves of garlic, 1/2 cup of soy sauce, and 1/2 tsp of ginger; set aside.",
+        "Once sausage is cooked through, add 1 bag of dry coleslaw mix to skillet and stir to combine.",
+        "Pour the soy sauce mixture into the skillet and stir, continuing to cook over medium heat for about 5 minutes or until cabbage is wilted, but still a bit crunchy. Serve with sliced green onion."
+    ]
+}

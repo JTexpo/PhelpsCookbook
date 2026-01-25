@@ -2,6 +2,10 @@ const ALL_FOOD_INFO_FILES = [
     "vegan-chili.json",
     "no-waste-quiche.json",
     "tofu-stirfry.json",
+    "chicken-n-rice-burrito-bowls.json",
+    "sausage-balls.json",
+    "eggroll-in-a-bowl.json",
+    "cheesy-chicken-broccoli-n-rice.json",
 ]
 ALL_FOOD_INFO_FILES.sort();
 
@@ -294,7 +298,7 @@ function updateWeeklyMeals(weeklyMeals) {
         select.id = `${key}-add-recipe`;
         ALL_FOOD_INFO_FILES.forEach(filename => {
             const option = document.createElement("option");
-            option.textContent = filename.split(".")[0];
+            option.textContent = filename.split(".")[0].replaceAll("-", " ").toLowerCase();
             select.appendChild(option);
         });
 
@@ -327,14 +331,14 @@ function updateWeeklyMeals(weeklyMeals) {
         if (meals.length > 0) {
             const recipeList = document.createElement("ul");
             meals.forEach(meal => {
-                fetch(`./assets/food-info/${meal}.json`)
+                fetch(`./assets/food-info/${meal.replaceAll(" ", "-")}.json`)
                     .then(response => response.json())
                     .then(data => {
                         const recipeListItem = document.createElement("div");
                         recipeListItem.className = "row";
                         const recipeCol = document.createElement("div");
                         recipeCol.className = "col-sm-6";
-                        recipeCol.textContent = data.id;
+                        recipeCol.textContent = data.name;
                         recipeListItem.appendChild(recipeCol);
 
                         // recipeListItem.textContent = data.id;
@@ -343,7 +347,12 @@ function updateWeeklyMeals(weeklyMeals) {
                         infoButton.textContent = "Info";
                         infoButton.classList.add("btn");
                         infoButton.classList.add("btn-block");
-                        // infoButton.addEventListener("click", () => { ... });
+                        infoButton.addEventListener("click", () => {
+                            const params = new URLSearchParams(window.location.search); 
+                            params.delete('name'); 
+                            params.set('name', data.id);
+                            window.location.href = `./recipie/index.html?`+ params.toString();
+                         });
 
                         const removeButton = document.createElement("button");
                         removeButton.textContent = "Remove";
@@ -399,7 +408,7 @@ function updateIngredients(weeklyMeals){
     const seenIngredients = {};
     Object.entries(sanitizedWeeklyMeals).forEach(([key, meals]) => {
         meals.forEach(meal => {
-            fetch(`./assets/food-info/${meal}.json`)
+            fetch(`./assets/food-info/${meal.replaceAll(" ", "-")}.json`)
                 .then(response => response.json())
                 .then(data => {
                     data.ingredients.forEach(ingredient => {
