@@ -37,6 +37,20 @@ function loadRecipe(name) {
         });
 }
 
+//todo: define in shared location
+function goBackCookbook() {
+    const params = new URLSearchParams(window.location.search); 
+    params.delete('name'); 
+    window.location.href = '../index.html?' + params.toString();
+}
+
+
+/*
+MAIN
+*/
+
 if (recipeNameParam) {
     loadRecipe(recipeNameParam);
 }
+
+document.getElementById("go-back-btn").addEventListener("click", goBackCookbook);

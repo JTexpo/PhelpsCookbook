@@ -48,4 +48,18 @@ function loadAllrecipes() {
     });
 }
 
+//todo: define in shared location
+function goBackCookbook() {
+    const params = new URLSearchParams(window.location.search); 
+    params.delete('name'); 
+    window.location.href = '../index.html?' + params.toString();
+}
+
+
+/*
+MAIN
+*/
+
 loadAllrecipes();
+
+document.getElementById("go-back-btn").addEventListener("click", goBackCookbook);

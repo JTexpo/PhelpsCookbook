@@ -27,11 +27,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h1>Phelps Cookbook</h1>
-                <button onclick="
-                const params = new URLSearchParams(window.location.search); 
-                params.delete('name'); 
-                window.location.href = '../index.html?' + params.toString();
-                ">
+                <button id="go-back-btn">
                     ← Back to Cookbook
                 </button>
             </div>
@@ -73,5 +69,5 @@
     </div>
 </body>
 
-<script src="index.js"></script>
+<script type="module" src="index.js"></script>
 </html>

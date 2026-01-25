@@ -1,6 +1,6 @@
 // List all the contents of the food-info directory
 //todo: determine feasibility of automating this list's creation
-const ALL_FOOD_INFO_FILES = [
+export const ALL_FOOD_INFO_FILES = [
     "vegan-chili.json",
     "no-waste-quiche.json",
     "tofu-stirfry.json",
@@ -12,7 +12,7 @@ const ALL_FOOD_INFO_FILES = [
 ALL_FOOD_INFO_FILES.sort();
 
 // Ingredient class
-class Ingredient {
+export class Ingredient {
 
     constructor(name, amount, unit) {
       this.name = name; // String

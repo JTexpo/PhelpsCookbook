@@ -55,17 +55,12 @@
                 <br><br>
                 <div class="row">
                     <div class="col-sm-12">
-                        <button onclick="copySharelink()" class="btn btn-block">Share</button>
+                        <button id="share-btn" class="btn btn-block">Share</button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-12">
-                        <button onclick="
-                            const share_url = getShareLink();
-                            const params = new URLSearchParams(share_url.searchParams); 
-                            params.delete('name'); 
-                            window.location.href = 'see_recipes/index.html?' + params.toString();
-                            " class="btn btn-block">See Recipes</button>
+                        <button id="recipe-btn" class="btn btn-block">See Recipes</button>
                     </div>
                 </div>
             </div>
@@ -76,4 +71,4 @@
 </html>
 
 <!-- import custom index.js -->
-<script src="index.js"></script>
+<script type="module" src="index.js"></script>

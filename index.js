@@ -1,4 +1,4 @@
-import {ALL_FOOD_INFO_FILES, Ingredient} from "models.js";
+import {ALL_FOOD_INFO_FILES, Ingredient} from "./models.js";
 
 const WEEKDAY_IDS = ["m", "t", "w", "th", "f", "s", "su"];
 const MEALTYPE_IDS = ["b", "l", "d"];
@@ -218,7 +218,7 @@ function getWeekdayMeals(url_string) {
  * @param {string} meal - the id of the meal to add the recipe to
  */
 function addRecipeToMeal(meal) {
-    recipe = document.getElementById(meal+"-add-recipe").value;
+    const recipe = document.getElementById(meal+"-add-recipe").value;
     WEEKDAY_MEALS[meal].push(recipe);
     updateWeeklyMeals(WEEKDAY_MEALS);
     updateIngredients(WEEKDAY_MEALS);
@@ -358,11 +358,11 @@ function updateWeeklyMeals(weeklyMeals) {
                         // recipeListItem.appendChild(infoButton);
                         // recipeListItem.appendChild(removeButton);
 
-                        infoButtonColumn = document.createElement("div");
+                        const infoButtonColumn = document.createElement("div");
                         infoButtonColumn.className = "col-sm-3";
                         infoButtonColumn.appendChild(infoButton);
                         recipeListItem.appendChild(infoButtonColumn);
-                        removeButtonColumn = document.createElement("div");
+                        const removeButtonColumn = document.createElement("div");
                         removeButtonColumn.className = "col-sm-3";
                         removeButtonColumn.appendChild(removeButton);
                         recipeListItem.appendChild(removeButtonColumn);
@@ -468,6 +468,13 @@ function copySharelink() {
         .catch(err => console.error(err));
 }
 
+function seeRecipePage() {
+    const share_url = getShareLink();
+    const params = new URLSearchParams(share_url.searchParams); 
+    params.delete('name'); 
+    window.location.href = 'see_recipes/index.html?' + params.toString();
+}
+
 
 /*
 MAIN
@@ -475,7 +482,10 @@ MAIN
 
 init_weekly_meals_html();
 
-WEEKDAY_MEALS = getWeekdayMeals(url_string=window.location.href);
+WEEKDAY_MEALS = getWeekdayMeals(window.location.href);
 console.log(WEEKDAY_MEALS);
 updateWeeklyMeals(WEEKDAY_MEALS);
 updateIngredients(WEEKDAY_MEALS);
+
+document.getElementById("share-btn").addEventListener("click", copySharelink);
+document.getElementById("recipe-btn").addEventListener("click", seeRecipePage);
