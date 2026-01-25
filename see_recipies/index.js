@@ -1,13 +1,4 @@
-const ALL_FOOD_INFO_FILES = [
-    "vegan-chili.json",
-    "no-waste-quiche.json",
-    "tofu-stirfry.json",
-    "chicken-n-rice-burrito-bowls.json",
-    "sausage-balls.json",
-    "eggroll-in-a-bowl.json",
-    "cheesy-chicken-broccoli-n-rice.json",
-]
-ALL_FOOD_INFO_FILES.sort();
+import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
 
 function loadAllRecipies() {
     const allMeals = document.getElementById("all-meals");
