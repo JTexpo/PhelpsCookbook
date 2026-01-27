@@ -1,0 +1,28 @@
+{
+    "id":"spinach-balls",
+    "name":"Spinach Balls",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "Frozen Chopped Spinach": [20, "oz"],
+        "Chicken Flavored Stuffing Mix": [6, "oz"],
+        "Yellow Onion": [1, "medium"],
+        "Seasoned Salt": [1, "tsp"],
+        "Garlic Powder": [1, "tsp"],
+        "Black Pepper": [1, "tsp"],
+        "Thyme": [0.5, "tsp"],
+        "Butter": [0.5, "cup"],
+        "Eggs": [5, "large"],
+        "Shredded Parmesan Cheese": [1, "cup"]
+    },
+    "steps":[
+        "Microwave spinach as package directions call for and drain well.",
+        "Put into large sized bowl and add the stuffing mix, then mix well with fork.",
+        "Finely chop and add the onion, then mix well with fork.",
+        "Add the seasonings, then mix well with fork.",
+        "Melt and add the butter (or margarine), then mix well with fork.",
+        "Beat and add the eggs, then mix well with fork.",
+        "Add the parmesan cheese, then mix well with fork.",
+        "Form into balls and put on cookie sheet. Bake at 325 degrees for about 20 minutes. Watch closely as the bottoms might burn.",
+        "You can make up the spinach balls and put on cookie sheets and freeze for a couple of hours. Then put in a Ziploc bag until ready to cook. Put frozen balls on cookie sheets and thaw about an hour, and then cook as above."
+    ]
+}
