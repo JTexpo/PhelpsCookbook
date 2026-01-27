@@ -1,0 +1,20 @@
+{
+    "id":"zuchini-boats",
+    "name":"Zuchini Boats",
+    "author":"Haley Crawley",
+    "ingredients":{
+        "Ground Beef": [2, "lbs"],
+        "Onion": [1, "small"],
+        "Mushrooms": [1, "cup"],
+        "Garlic": [2, "cloves"],
+        "Italian Seasoning": [1, "tbsp"],
+        "Zuchini": [4, "large"],
+        "Mozzarella Cheese": [1, "cup"],
+        "Marinara": [24, "oz"]
+    },
+    "steps":[
+        "Set oven to 350",
+        "Cook ground beef, onions, mushrooms and garlic in a pan. While cooking, take your Zuchini and cut the tops and slice down the middle longways. Once prepped, take a spoon and carve out the middle(like a boat), when the are carved out, place in a baking dish.",
+        "Once the meat is cooked, Scoop into the Zuchini boats. If extra, I top all of them off and leave none behind, it is also good for future meal prep if desired. Then pour your marinara sauce over the tops and sides of the boats. Top with a healthy amount mozzarella and cook till the cheese is melted."
+    ]
+}

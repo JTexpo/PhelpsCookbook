@@ -282,7 +282,9 @@ function updateWeeklyMeals(weeklyMeals) {
         inputGroup.classList.add("input-group");
         inputGroup.classList.add("mb-3");
 
-
+        /**
+         * Creates a select element for adding new recipes to the meal type.
+         */
         const addRecipeForm = document.createElement("form");
         const select = document.createElement("select");
         select.classList.add("custom-select");
@@ -302,9 +304,6 @@ function updateWeeklyMeals(weeklyMeals) {
             event.preventDefault();
             addRecipeToMeal(key);
         });
-
-        // addRecipeForm.appendChild(select);
-        // addRecipeForm.appendChild(addButton);
 
         const inputGroupPrepend = document.createElement("div");
         inputGroupPrepend.classList.add("input-group-prepend");
@@ -339,11 +338,13 @@ function updateWeeklyMeals(weeklyMeals) {
                         infoButton.classList.add("btn");
                         infoButton.classList.add("btn-block");
                         infoButton.addEventListener("click", () => {
-                            const params = new URLSearchParams(window.location.search); 
+                            const share_url = getShareLink();
+                            const params = new URLSearchParams(share_url.searchParams); 
                             params.delete('name'); 
                             params.set('name', data.id);
                             window.location.href = `./recipe/index.html?`+ params.toString();
-                         });
+
+                                                });
 
                         const removeButton = document.createElement("button");
                         removeButton.textContent = "Remove";
@@ -354,9 +355,6 @@ function updateWeeklyMeals(weeklyMeals) {
                             event.preventDefault();
                             removeRecipeFromMeal(key, meal);
                         });
-
-                        // recipeListItem.appendChild(infoButton);
-                        // recipeListItem.appendChild(removeButton);
 
                         const infoButtonColumn = document.createElement("div");
                         infoButtonColumn.className = "col-sm-3";
@@ -430,6 +428,11 @@ function updateIngredients(weeklyMeals){
     });
 }
 
+/**
+ * Shows a toast message on the screen for a short amount of time.
+ * The message is displayed for 2 seconds, then fades out over 0.3 seconds.
+ * @param {string} message - the message to display on the toast
+ */
 function showToast(message) {
     const toast = document.createElement("div");
     toast.textContent = message;
@@ -444,6 +447,13 @@ function showToast(message) {
     }, 2000);
 }
 
+/**
+ * Returns a URL object that represents a shareable link for the current
+ * selection of weekly meals. The link contains all the weekly meal selections
+ * as query parameters.
+ *
+ * @returns {URL} - a URL object representing the shareable link
+ */
 function getShareLink() {
     var url = new URL(window.location.href);
     var url = new URL(url.origin + url.pathname);
@@ -456,6 +466,10 @@ function getShareLink() {
     return url;   
 }
 
+/**
+ * Copies the current share link to the clipboard.
+ * @returns {Promise<void>} A promise that resolves when the link has been copied, or rejects with an error.
+ */
 function copySharelink() {
     const url = getShareLink();
     navigator.clipboard.writeText(url.href)
@@ -463,6 +477,9 @@ function copySharelink() {
         .catch(err => console.error(err));
 }
 
+/**
+ * Redirects to the recipe page with the current weekly meals as parameters
+ */
 function seeRecipePage() {
     const share_url = getShareLink();
     const params = new URLSearchParams(share_url.searchParams); 

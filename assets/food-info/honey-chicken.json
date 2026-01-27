@@ -1,0 +1,27 @@
+{
+    "id":"honey-chicken",
+    "name":"Honey Chicken",
+    "author":"Braiden Crawley",
+    "ingredients":{
+        "Chicken Thighs": [1.5, "lbs"],
+        "Olive Oil": [2, "tbsp"],
+        "Honey": [2, "tbsp"],
+        "Paprika": [1, "tbsp"],
+        "Ground Cumin": [1, "tsp"],
+        "Garlic Powder": [1, "tsp"],
+        "Onion Powder": [1, "tsp"],
+        "Oregano": [0.5, "tsp"],
+        "Apple Cider Vinegar": [1, "tbsp"],
+        "Salt": [1, "tsp"],
+        "Pepper": [1, "tsp"]
+    },
+    "steps":[
+        "In a bowl, mix honey, olive oil, vinegar/lime juice, and all seasonings together into a thick paste.",
+        "Coat chicken well in the mixture.",
+        "Let marinate at least 30 minutes, or up to overnight in the fridge.",
+        "[option] Grill: Cook over medium-high heat, about 5-7 minutes per side until done.",
+        "[option] Stovetop: Pan-sear in a skillet over medium heat for 6-8 minutes per side.",
+        "[option] Oven: Bake at 400°F (200°C) for 20-25 minutes, broil the last 2 mins for char.",
+        "[option] Air fryer: 375°F for 15-18 minutes, flipping halfway."
+    ]
+}

@@ -2,6 +2,10 @@
 const params = new URLSearchParams(window.location.search);
 const recipeNameParam = params.get("name");
 
+/**
+ * Loads a recipe given its name from the food-info directory.
+ * @param {string} name The name of the recipe to load.
+ */
 function loadRecipe(name) {
     fetch(`./../assets/food-info/${name}.json`)
         .then(response => response.json())

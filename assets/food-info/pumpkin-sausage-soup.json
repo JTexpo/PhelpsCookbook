@@ -1,0 +1,27 @@
+{
+    "id":"pumpkin-sausage-soup",
+    "name":"Pumpkin Sausage Soup",
+    "author":"Haley Crawley",
+    "ingredients":{
+        "Ground Sausage": [1, "lbs"],
+        "Mushrooms": [2, "cup"],
+        "Onion": [1, "medium"],
+        "Garlic": [4, "cloves"],
+        "Chicken Stock": [32, "oz"],
+        "Pumpkin": [15, "oz"],
+        "Sugar": [1, "tbsp"],
+        "Ground Cinnamon": [0.5, "tsp"],
+        "Italian Seasoning": [2, "tsp"],
+        "Ground Turmeric": [1, "tsp"],
+        "Ground Ginger": [0.5, "tsp"],
+        "Nutmeg": [0.25, "tsp"],
+        "Heavy Whipping Cream": [0.5, "cup"],
+        "Water": [0.333, "cup"],
+        "Cornstarch": [0.333, "cup"],
+        "Cheddar Cheese": [2, "cup"]
+    },
+    "steps":[
+        "In a Dutch oven, cook sausage, mushrooms and onion over medium-high heat until sausage is no longer pink and vegetables are tender, 8-10 minutes, breaking up sausage into crumbles; drain. Add garlic; cook 1 minute longer. Add stock, pumpkin, sugar and seasonings. Bring to a boil; reduce heat. Cover and simmer 10 minutes.",
+        "Stir in cream. In a small bowl, mix water and cornstarch until smooth. Stir into pan. Bring to a boil; cook and stir until thickened, 1-2 minutes. Add cheese; cook and stir until melted."
+    ]
+}

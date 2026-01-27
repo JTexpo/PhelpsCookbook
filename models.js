@@ -8,6 +8,10 @@ export const ALL_FOOD_INFO_FILES = [
     "sausage-balls.json",
     "eggroll-in-a-bowl.json",
     "cheesy-chicken-broccoli-n-rice.json",
+    "anabolic-french-toast.json",
+    "pumpkin-sausage-soup.json",
+    "zuchini-boats.json",
+    "honey-chicken.json"
 ]
 ALL_FOOD_INFO_FILES.sort();
 

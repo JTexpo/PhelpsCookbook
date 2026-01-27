@@ -1,5 +1,10 @@
 import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
 
+/**
+ * Loads all recipes from the assets folder and renders them as a list of cards.
+ * Each card contains the recipe's image, name, and a hint to view the recipe.
+ * When a card is clicked, it redirects to the recipe page with the recipe's id as a parameter.
+ */
 function loadAllRecipes() {
     const allMeals = document.getElementById("all-meals");
     allMeals.replaceChildren();
