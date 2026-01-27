@@ -2,20 +2,23 @@
     "id":"tofu-stirfry",
     "name":"Tofu Stirfry",
     "author":"Justin Esposito",
-    "ingredients":[
-        "Extra Firm Tofu",
-        "Frozen Veggies",
-        "Rice",
-        "Asian Sauces"
-    ],
+    "ingredients": {
+        "Extra Firm Tofu": [1, "block"],
+        "Frozen Veggies": [16, "oz"],
+        "Rice": [1, "cup"],
+        "Sesame Paste [optional]": [2, "tbsp"],
+        "Chili Crisp [optional]": [2, "tbsp"],
+        "Soy Sauce [optional]": [4, "tbsp"],
+        "Teriyaki Sauce [optional]": [4, "tbsp"]
+    },
     "steps":[
         "Press the extra firm tofu for 30 mins, the less liquid the better",
         "Cut tofu into rectangles with ~half a pinky width & an index finger length",
-        "With a rice cooker, cook 1 cup of rice",
+        "With a rice cooker, cook the rice",
         "In a pan spray lightly with oil & add tofu",
-        "Flip the tofu's once they are golden brown",
+        "Flip the tofu pieces once they are golden brown",
         "Add the frozen veggies",
-        "Once the veggies are stir fried, add in asian sauces",
+        "Once the veggies are stir fried, add in your sauce (two options listed below)",
         "[optional sauce 1] 2 table spoons of seasame paste 2 table spones of chili crips 4 table spoons of soy sauce",
         "[optional sauce 2] 1 parts soy sauce 1 part teriyaki sauce",
         "Serve with rice"

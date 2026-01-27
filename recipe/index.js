@@ -17,9 +17,13 @@ function loadRecipe(name) {
 
             const ingredientsList = document.getElementById("ingredients-list");
             ingredientsList.replaceChildren();
-            data.ingredients.forEach(item => {
+            // ingredients: Map of Names to Array [ Amount, Unit ]
+            Object.entries(data.ingredients).forEach(([item, amountList]) => {
+                const amount = amountList[0];
+                const unit = amountList[1];
                 const li = document.createElement("li");
-                li.textContent = item;
+                // Append the amount/ unit in parentheses after the item
+                li.textContent = item + " (" + amount + " " + unit + ")";
                 ingredientsList.appendChild(li);
             });
 
@@ -37,6 +41,20 @@ function loadRecipe(name) {
         });
 }
 
+//todo: define in shared location
+function goBackCookbook() {
+    const params = new URLSearchParams(window.location.search); 
+    params.delete('name'); 
+    window.location.href = '../index.html?' + params.toString();
+}
+
+
+/*
+MAIN
+*/
+
 if (recipeNameParam) {
     loadRecipe(recipeNameParam);
 }
+
+document.getElementById("go-back-btn").addEventListener("click", goBackCookbook);

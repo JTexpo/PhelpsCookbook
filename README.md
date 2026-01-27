@@ -24,8 +24,8 @@ A fun, interactive **recipe cookbook web app** that lets users browse and explor
 
 PhelpsCookbook/
 ├── assets/           # Images and static assets
-├── recipie/          # Recipe data or templates
-├── see_recipies/     # UI for displaying recipes
+├── recipe/           # Recipe data or templates
+├── see_recipes/      # UI for displaying recipes
 ├── index.html        # Main view
 ├── index.js          # JavaScript logic
 ├── styles.css        # Custom styling
@@ -71,7 +71,7 @@ At a high level:
 * `index.html` is the main UI
 * `index.js` handles dynamic recipe logic & interactions
 * `styles.css` contains responsive visual styles
-* Folders like `recipie/` store data or individual component views
+* Folders like `recipe/` store data or individual component views
 
 ---
 

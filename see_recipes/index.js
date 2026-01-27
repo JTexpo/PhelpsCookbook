@@ -1,15 +1,6 @@
-const ALL_FOOD_INFO_FILES = [
-    "vegan-chili.json",
-    "no-waste-quiche.json",
-    "tofu-stirfry.json",
-    "chicken-n-rice-burrito-bowls.json",
-    "sausage-balls.json",
-    "eggroll-in-a-bowl.json",
-    "cheesy-chicken-broccoli-n-rice.json",
-]
-ALL_FOOD_INFO_FILES.sort();
+import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
 
-function loadAllRecipies() {
+function loadAllRecipes() {
     const allMeals = document.getElementById("all-meals");
     allMeals.replaceChildren();
 
@@ -30,7 +21,7 @@ function loadAllRecipies() {
                     const params = new URLSearchParams(window.location.search); 
                     params.delete('name'); 
                     params.set('name', data.id);
-                    window.location.href = `../recipie/index.html?`+ params.toString();
+                    window.location.href = `../recipe/index.html?`+ params.toString();
                 };
 
                 const img = document.createElement("img");
@@ -57,4 +48,18 @@ function loadAllRecipies() {
     });
 }
 
-loadAllRecipies();
+//todo: define in shared location
+function goBackCookbook() {
+    const params = new URLSearchParams(window.location.search); 
+    params.delete('name'); 
+    window.location.href = '../index.html?' + params.toString();
+}
+
+
+/*
+MAIN
+*/
+
+loadAllRecipes();
+
+document.getElementById("go-back-btn").addEventListener("click", goBackCookbook);
