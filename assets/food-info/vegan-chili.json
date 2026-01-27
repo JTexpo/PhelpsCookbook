@@ -2,19 +2,22 @@
     "id":"vegan-chili",
     "name":"Vegan Chili",
     "author":"Justin Esposito",
-    "ingredients":[
-        "Fajita Veggies",
-        "Refried Beans",
-        "Black Beans",
-        "Soup Mix Veggies",
-        "Pasta Sauce",
-        "Harissa",
-        "Garlic",
-        "Spices"
-    ],
+    "ingredients":{
+        "Frozen Fajita Veggies": [16, "oz"],
+        "Siete Vegan Charro Beans": [15.5, "oz"],
+        "Canned Black Beans": [15, "oz"],
+        "Frozen Soup Mix Veggies": [16, "oz"],
+        "Pasta Sauce": [24, "oz"],
+        "Harissa": [6, "oz"],
+        "Minced Garlic": [5, "cloves"],
+        "Red Pepper Flakes": [1, "tbsp"],
+        "Nutritional Yeast": [0.25, "cup"],
+        "Siete Spice Packet": [1, "oz"]
+    },
     "steps":[
-        "Set crockpot to 8 -> 10 hours",
+        "Set crockpot to 8 -> 10 hours (medium-low)",
         "Add all ingredients to crockpot",
-        "Serve with a bread or rice"
+        "Stir every two hours",
+        "Serve with bread or rice"
     ]
 }

@@ -394,21 +394,28 @@ function updateIngredients(weeklyMeals){
         ])
     );
 
+    // HTML: <ul> <ul> <li> marker "Name (sumStr)"</li>... </ul> </ul>
     const ingredients = document.getElementById("ingredients");
     ingredients.replaceChildren();
-    const seenIngredients = {};
+    let seenIngredients = [];
     Object.entries(sanitizedWeeklyMeals).forEach(([key, meals]) => {
         meals.forEach(meal => {
             fetch(`./assets/food-info/${meal.replaceAll(" ", "-")}.json`)
                 .then(response => response.json())
                 .then(data => {
-                    data.ingredients.forEach(ingredient => {
-                        seenIngredients[ingredient] = (seenIngredients[ingredient] || 0) + 1;
+                    // ingredients: Map of Names to Array [ Amount, Unit ]
+                    Object.entries(data.ingredients).forEach(([name, amountList]) => {
+                        // Create an Ingredient object from the JSON map
+                        const amount = amountList[0];
+                        const unit = amountList[1];
+                        seenIngredients.push(new Ingredient(name, amount, unit));
                     });
-                })
-                .then(() => {
+
+                    // Get a Map of ingredient Names to prepared String with summed amounts/ units
+                    const sumMap = Ingredient.sumOf(seenIngredients);
+                    // Generate the HTML list of all ingredients and add to the site
                     const ingredientList = document.createElement("ul");
-                    Object.entries(seenIngredients).forEach(([ingredient, count]) => {
+                    sumMap.forEach((count, ingredient, sumMap) => {
                         const ingredientListItem = document.createElement("li");
                         ingredientListItem.textContent = `${ingredient} (${count})`;
                         ingredientList.appendChild(ingredientListItem);
@@ -421,19 +428,7 @@ function updateIngredients(weeklyMeals){
                 });
         });
     });
-   
 }
-
-// function getShareLink(){
-//     var url = new URL(window.location.href);
-//     for (const [key, value] of Object.entries(WEEKDAY_MEALS)) {
-//         for (var i = 0; i < value.length; i++) {
-//             url.searchParams.append(key, value[i]);
-//         }
-//     }
-//     // copy to clipboard
-//     navigator.clipboard.writeText(url.href);
-// }
 
 function showToast(message) {
     const toast = document.createElement("div");

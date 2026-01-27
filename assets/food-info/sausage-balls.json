@@ -2,20 +2,20 @@
     "id":"sausage-balls",
     "name":"Sausage Balls",
     "author":"Justin Crawley",
-    "ingredients":[
-        "Ground Sausage",
-        "Cheddar Cheese",
-        "Cream Cheese",
-        "Bisquick Pancake Mix",
-        "Milk"
-    ],
+    "ingredients":{
+        "Ground Sausage": [2, "lbs"],
+        "Cheddar Cheese": [12, "oz"],
+        "Cream Cheese": [8, "oz"],
+        "Bisquick Pancake Mix": [4, "cups"],
+        "Milk": [0.25, "cup"]
+    },
     "steps":[
-        "Shred 12 oz sharp cheddar into microwave safe bowl",
-        "Add in 1 box of cream cheese",
+        "Shred sharp cheddar into microwave safe bowl",
+        "Add in the package of cream cheese",
         "Melt together in microwave, stirring frequently until mostly melted",
-        "Slowly add 4 cups of bisquick on cup at a time",
-        "Add 1/4 cup of milk as needed for consistency",
-        "Mix in 2 lbs of sausage thoroughly until solid consistency",
+        "Slowly add bisquick a cup at a time",
+        "Add up to 1/4 cup milk as needed for consistency",
+        "Mix in sausage thoroughly until solid consistency",
         "Roll mixture into ping pong ball size and place on ungreased baking sheet",
         "Bake at 350 degrees for 25-30 minutes until golden brown",
         "Let cool before serving"

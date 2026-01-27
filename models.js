@@ -67,51 +67,72 @@ export class Ingredient {
     }
 
     // Given an Array of Ingredients, return a String representation of the cumulative sum
+    // for each ingredient
     static sumOf(ingredientList) {
         // Keep track of each type of unit (some types are not convertible)
-        // { unit: amount, ... }
-        const sumMap = new Map();
-        for (const i in ingredientList) {
-            // Determine if we're already tracking this ingredient unit
-            if (sumMap.has(i.unit)) {
-                sumMap.set(i.unit, sumMap.get(i.unit) + i.amount);
-                continue;
-            }
-            // Determine if this unit needs to be tracked separately from convertible units
-            converted = false;
-            if (i.unitIsConvertible) {
-                // We may be able to convert this amount to an existing unit we're already tracking..
-                for (const summedUnit in sumMap.keys()) {
-                    convertedAmount = Ingredient.convertIngredientUnit(i, summedUnit);
-                    if (convertedAmount != null) {
-                        // The conversion worked! Update the sum and break the inner loop
-                        sumMap.set(summedUnit, sumMap.get(summedUnit) + convertedAmount);
-                        converted = true;
-                        break;
-                    }
-                    // Otherwise, keep trying other types in symMap..
+        // { name: { unit: amount, ... }, ... }
+        var sumMap = new Map();
+        for (let i = 0; i < ingredientList.length; i++)  {
+            let ingredient = ingredientList[i];
+            // Determine if we're already tracking this ingredient
+            if (sumMap.has(ingredient.name)) {
+                let iMap = sumMap.get(ingredient.name);
+                // Determine if we're already tracking this unit
+                if (iMap.has(ingredient.unit)) {
+                    iMap.set(ingredient.unit, iMap.get(ingredient.unit) + ingredient.amount);
+                    sumMap.set(ingredient.name, iMap);
+                    continue;
                 }
-            }
-            if (! converted) {
-                // Start tracking this unit on its own
-                sumMap.set(i.unit, i.amount);
+                // Determine if this unit needs to be tracked separately from convertible units
+                converted = false;
+                if (ingredient.unitIsConvertible) {
+                    // We may be able to convert this amount to an existing unit we're already tracking..
+                    for (const summedUnit in iMap.keys()) {
+                        convertedAmount = Ingredient.convertIngredientUnit(i, summedUnit);
+                        if (convertedAmount != null) {
+                            // The conversion worked! Update the sum and break the inner loop
+                            iMap.set(summedUnit, iMap.get(summedUnit) + convertedAmount);
+                            sumMap.set(ingredient.name, iMap);
+                            converted = true;
+                            break;
+                        }
+                        // Otherwise, keep trying other types in iMap..
+                    }
+                }
+                if (! converted) {
+                    // Start tracking this unit on its own
+                    iMap.set(ingredient.unit, ingredient.amount);
+                    sumMap.set(ingredient.name, iMap);
+                }
+            } else {
+                // Add new ingredient to sumMap
+                let iMap = new Map([ [ingredient.unit, ingredient.amount] ]);
+                sumMap.set(ingredient.name, iMap);
             }
         }
 
-        // Now that all of our incompatible units are mapped and individually summed,
-        // return the String representation of all units.
-        sumStr = "";
-        for (const summedUnit in sumMap.keys()) {
-            // todo: print in a more logical way (i.e., larger weighted units- worth more tsp- first)
-            sumStr += sumMap.get(summedUnit) + " " + summedUnit + ",";
+        // Now that all of our incompatible units are mapped and individually summed per ingredient,
+        // return the String representation of all units for all ingredients.
+        // { name: "num unit, ...", ... }
+        var sumStrMap = new Map();
+        // Sort the keys alphabetically
+        const sumMapKeys = [...sumMap.keys()];
+        sumMapKeys.sort();
+        for (let i = 0; i < sumMapKeys.length; i++)  {
+            const ingredientName = sumMapKeys[i];
+            const amountsMap = sumMap.get(ingredientName);
+            var sumStr = "";
+            amountsMap.forEach((summedAmount, summedUnit, amountsMap) => {
+                // todo: print in a more logical way (i.e., larger weighted units- worth more tsp- first)
+                sumStr += summedAmount + " " + summedUnit + ",";
+            });
+            if (sumStr.endsWith(",")) {
+                // Remove the last comma
+                sumStr = sumStr.slice(0, -1);
+            }
+            sumStrMap.set(ingredientName, sumStr);
         }
-        if (sumStr.endsWith(",")) {
-            // Remove the last comma
-            sumStr = sumStr.slice(0, -1);
-        }
-        return sumStr;
+        return sumStrMap;
     }
-
-    //todo: equality operator
   
 }
