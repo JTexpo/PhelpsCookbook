@@ -1,6 +1,6 @@
 import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
 
-function loadAllrecipes() {
+function loadAllRecipes() {
     const allMeals = document.getElementById("all-meals");
     allMeals.replaceChildren();
 
@@ -60,6 +60,6 @@ function goBackCookbook() {
 MAIN
 */
 
-loadAllrecipes();
+loadAllRecipes();
 
 document.getElementById("go-back-btn").addEventListener("click", goBackCookbook);
