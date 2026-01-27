@@ -7,6 +7,7 @@ export const ALL_FOOD_INFO_FILES = [
     "chicken-n-rice-burrito-bowls.json",
     "sausage-balls.json",
     "spinach-balls.json",
+    "grandmoms-cucumber-sandwiches.json",
     "eggroll-in-a-bowl.json",
     "cheesy-chicken-broccoli-n-rice.json",
     "anabolic-french-toast.json",
