@@ -37,7 +37,6 @@ export class Ingredient {
         ["ounces", 6],
         ["cup", 48], // 8oz
         ["cups", 48],
-        //["can", 48], // assume 8oz can?
         ["pt", 96],  // 2 cups
         ["pts", 96],
         ["pint", 96],
@@ -57,7 +56,7 @@ export class Ingredient {
       ]);
 
 
-    // Given Ingredient i, return the Number amount of i in the given
+    // Given Ingredient i, return the Number amount of the ingredient in the given
     // unit newUnit (String). If i is not convertible to newUnit, return null.
     static convertIngredientUnit(i, newUnit) {
         if ( ! (i.unitIsConvertible && Ingredient.#SUPPORTED_UNITS.has(newUnit))) {
@@ -65,9 +64,12 @@ export class Ingredient {
             return null;
         }
         // Get the amount in tsp
-        baseAmount = i.amount * Ingredient.#SUPPORTED_UNITS.get(i.unit);
-        // Multiply the base amount by the tsp multiplier for newUnit
-        return baseAmount * Ingredient.#SUPPORTED_UNITS.get(newUnit);
+        const amountOldUnit = i.amount;
+        const amountInTspOldUnit = Ingredient.#SUPPORTED_UNITS.get(i.unit);
+        // Get the new unit tsp multiplier
+        const amountInTspNewUnit = Ingredient.#SUPPORTED_UNITS.get(newUnit);
+        // Convert the ingredient amount into the new unit
+        return amountOldUnit * ( amountInTspOldUnit / amountInTspNewUnit );
     }
 
     // Given an Array of Ingredients, return a String representation of the cumulative sum
@@ -88,14 +90,18 @@ export class Ingredient {
                     continue;
                 }
                 // Determine if this unit needs to be tracked separately from convertible units
-                converted = false;
+                let converted = false;
                 if (ingredient.unitIsConvertible) {
                     // We may be able to convert this amount to an existing unit we're already tracking..
-                    for (const summedUnit in iMap.keys()) {
-                        convertedAmount = Ingredient.convertIngredientUnit(i, summedUnit);
+                    const iMapKeys = [...iMap.keys()];
+                    for (let ii = 0; ii < iMapKeys.length; ii++)  {
+                        const summedUnit = iMapKeys[ii];
+                        const currSummedAmount = iMap.get(summedUnit);
+                        // See if conversion and summation is possible...
+                        const convertedAmount = Ingredient.convertIngredientUnit(ingredient, summedUnit);
                         if (convertedAmount != null) {
                             // The conversion worked! Update the sum and break the inner loop
-                            iMap.set(summedUnit, iMap.get(summedUnit) + convertedAmount);
+                            iMap.set(summedUnit, currSummedAmount + convertedAmount);
                             sumMap.set(ingredient.name, iMap);
                             converted = true;
                             break;
@@ -127,7 +133,8 @@ export class Ingredient {
             const amountsMap = sumMap.get(ingredientName);
             var sumStr = "";
             amountsMap.forEach((summedAmount, summedUnit, amountsMap) => {
-                // todo: print in a more logical way (i.e., larger weighted units- worth more tsp- first)
+                // todo: print in a more logical way (i.e., convert to largest whole conversion, larger
+                // weighted units- worth more tsp- first, etc.)
                 sumStr += summedAmount + " " + summedUnit + ",";
             });
             if (sumStr.endsWith(",")) {
