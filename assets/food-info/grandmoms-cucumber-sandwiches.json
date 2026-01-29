@@ -1,0 +1,21 @@
+{
+    "id":"grandmoms-cucumber-sandwiches",
+    "name":"Grandmom's Cucumber Sandwiches",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "Seedless Cucumber": [1],
+        "Cream Cheese": [16, "oz"],
+        "Onion Powder": [1, "dash"],
+        "Paprika": [1, "dash"],
+        "Bread": [1, "loaf"],
+        "Green Food Coloring [optional]": [1, "tiny drop"],
+        "Yellow Food Coloring [optional]": [1, "tiny drop"]
+    },
+    "steps":[
+        "Set cream cheese in large shallow bowl to soften.",
+        "Wash cucumber. Strip some of the peeling off cucumber, leaving about half without peeling.",
+        "Grate cucumber into shallow bowl with cream cheese until the cucumber/cream cheese mixture is spreading consistency.",
+        "Add onion powder, paprika and food colorings to mixture.",
+        "Spread on bread of your choice. Pepperidge Farms makes little party bread, both rye and white, if you can find it. Or just use thin sandwich bread and cut off crust to dainty them. Or serve with crackers, etc. Use your imagination!"
+    ]
+}

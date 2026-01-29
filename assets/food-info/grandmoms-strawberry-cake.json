@@ -1,0 +1,24 @@
+{
+    "id":"grandmoms-strawberry-cake",
+    "name":"Grandmom's Strawberry Cake",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "White Cake Mix": [1, "box"],
+        "Cooking Oil": [1, "cup"],
+        "Eggs": [4],
+        "Strawberry Jello": [1, "box"],
+        "Flour": [3, "tbsp"],
+        "Water": [0.5, "cup"],
+        "Frozen Strawberries [little frozen box]": [1, "pkg"],
+        "Powdered Sugar": [1, "box"],
+        "Margarine": [0.5, "cup"]
+    },
+    "steps":[
+        "Justin Crawley loves this cake. Makes a rich, heavy cake.",
+        "For the frozen strawberries, use little frozen box if you can find.",
+        "Mix the cake mix, oil, eggs, jello, flour, water, and half of the frozen strawberries well.",
+        "Fill cake rounds or 9x13 pan and bake at 350° until done.",
+        "To make the icing, mix the powdered sugar, margarine, and remaining frozen strawberries (may use juice only) well.",
+        "Ice the cake. Serve with vanilla ice cream and strawberries."
+    ]
+}

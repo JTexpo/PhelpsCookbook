@@ -1,0 +1,24 @@
+{
+    "id":"cowboy-caviar",
+    "name":"Cowboy Caviar (Colby's Favorite)",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "Canned Black-Eyed Peas": [45, "oz"],
+        "Canned Black Beans": [15, "oz"],
+        "Canned Corn": [10, "oz"],
+        "Canned Sliced Black Olives": [2.25, "oz"],
+        "Jalapeño": [4, "peppers"],
+        "Red Onion": [1, "small"],
+        "Bell Pepper": [1, "green", 1, "red"],
+        "Italian Salad Dressing": [16, "oz"],
+        "Avocados": [2]
+    },
+    "steps":[
+        "Drain and rinse the black-eyed peas and black beans.",
+        "Drain the corn. Drain and chop the olives.",
+        "Seed and finely chop the jalapeños, onion, and bell peppers. Chop the avocados.",
+        "Combine all ingredients except avocados in a large bowl and toss to combine.",
+        "Refrigerate at least 1 hour (or overnight for better flavor) to allow the ingredients to marinate in the dressing.",
+        "Add the avocados just before serving and toss to combine. Makes 2 generous quarts. Best served with tortilla chips."
+    ]
+}

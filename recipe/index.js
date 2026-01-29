@@ -21,13 +21,27 @@ function loadRecipe(name) {
 
             const ingredientsList = document.getElementById("ingredients-list");
             ingredientsList.replaceChildren();
-            // ingredients: Map of Names to Array [ Amount, Unit ]
+            // ingredients: Map of Names to Array [ Amount, Unit, ... ]
             Object.entries(data.ingredients).forEach(([item, amountList]) => {
-                const amount = amountList[0];
-                const unit = amountList[1];
+                // Support ingredient lists that provide multiple amounts in different units
+                let countStr = " (";
+                for (var i = 0; i < amountList.length; i += 2) {
+                    const amount = amountList[i];
+                    // Support unitless counts
+                    countStr += amount;
+                    if (i + 1 < amountList.length) {
+                        const unit = amountList[i + 1];
+                        countStr += " " + unit;
+                        if (i + 2 < amountList.length) {
+                            // Expecting another amount
+                            countStr += ", ";
+                        }
+                    }
+                }
+                countStr += ")";
+                // Append the amounts/ units in parentheses after the item
                 const li = document.createElement("li");
-                // Append the amount/ unit in parentheses after the item
-                li.textContent = item + " (" + amount + " " + unit + ")";
+                li.textContent = item + countStr;
                 ingredientsList.appendChild(li);
             });
 

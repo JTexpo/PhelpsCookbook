@@ -4,7 +4,7 @@
     "author":"Colby Crawley",
     "ingredients":{
         "Bread": [4, "slices"],
-        "Egg Whites": [6, "egg"],
+        "Egg Whites": [6],
         "Ground Cinnamon": [1, "tsp"],
         "Nutmeg": [1, "tsp"],
         "Vanilla Extract": [2, "tsp"],
@@ -14,7 +14,7 @@
     "steps":[
         "Heat a large nonstick pan over low heat",
         "Meanwhile, whisk egg whites, salt, and mix-ins of choice in a large, shallow bowl",
-        "oak each slice of bread in the egg white mixture until soggy but not falling apart",
+        "Soak each slice of bread in the egg white mixture until soggy but not falling apart",
         "Spray pan with nonstick spray, then carefully place a soaked piece of bread into the pan. Cook until golden brown, then flip. Repeat with all slices and top with anything you like!"
     ]
 }

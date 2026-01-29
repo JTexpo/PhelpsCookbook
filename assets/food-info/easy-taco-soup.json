@@ -1,0 +1,21 @@
+{
+    "id":"easy-taco-soup",
+    "name":"Easy Taco Soup",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "Ground Beef": [2, "lbs"],
+        "Crushed Tomatoes": [1, "can"],
+        "Rotel": [1, "can"],
+        "Whole Kernel Corn": [1, "can"],
+        "Pinto Beans": [1, "can"],
+        "Kidney Beans": [1, "can"],
+        "Taco Seasoning": [1, "pkg"],
+        "Ranch Style Dressing Mix": [1, "small pkg"],
+        "Water": [1, "can"]
+    },
+    "steps":[
+        "Brown the ground beef.",
+        "Drain and rinse the pinto beans and kidney beans.",
+        "Mix all ingredients in large soup pot or slow cooker and heat."
+    ]
+}

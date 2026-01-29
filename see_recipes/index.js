@@ -1,4 +1,5 @@
 import {ALL_FOOD_INFO_FILES, Ingredient} from "../models.js";
+ALL_FOOD_INFO_FILES.sort();
 
 /**
  * Loads all recipes from the assets folder and renders them as a list of cards.
