@@ -1,0 +1,26 @@
+{
+    "id":"poppy-seed-loaf-delight",
+    "name":"Poppy Seed Loaf Delight",
+    "author":"Chris Crawley",
+    "ingredients":{
+        "Flour": [3, "cup"],
+        "Salt": [1.5, "tsp"],
+        "Baking Powder": [1.5, "tsp"],
+        "Eggs": [3],
+        "Milk": [1.5, "cups"],
+        "Cooking Oil": [1.125, "cups"],
+        "Poppy Seeds": [1, "tbsp"],
+        "Sugar": [2.25, "cups", 0.75, "cups"],
+        "Vanilla": [1.5, "tsp", 0.5, "tsp"],
+        "Almond Extract": [1.5, "tsp", 0.5, "tsp"],
+        "Butter Flavoring": [1.5, "tsp", 0.5, "tsp"],
+        "Orange Juice": [0.25, "cup"]
+    },
+    "steps":[
+        "For 2 minutes with mixer, mix flour, salt, baking powder, eggs, milk, oil, poppy seed, 2.25 cups of the sugar, and 1.5 tsp each of the vanilla, almond extract, and butter flavoring.",
+        "Pour into 2 large or 4 small greased loaf pans. Bake at 350 degrees one hour for large pans or 45-50 minutes for small pans.",
+        "Prepare the glaze by mixing the orange juice with the remaining 0.75 cups of sugar and 0.5 tsp each of vanilla, almond extract, and butter flavoring.",
+        "Use toothpick to check when the cake is done. Cool 5 minutes and then pour glaze over.",
+        "NOTE: Loaves will split somewhat in the middle, this is normal; if the edges seem to be getting too brown and the middle not done, adjust your oven temperature down just a little bit."
+    ]
+}
