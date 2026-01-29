@@ -405,10 +405,14 @@ function updateIngredients(weeklyMeals){
                     // ingredients: Map of Names to Array [ Amount, Unit, ... ]
                     Object.entries(data.ingredients).forEach(([name, amountList]) => {
                         // Support ingredient lists that provide multiple amounts in different units
-                        for (var i = 0; i + 1 < amountList.length; i += 2) {
+                        for (var i = 0; i < amountList.length; i += 2) {
                             // Create an Ingredient object from the JSON map
                             const amount = amountList[i];
-                            const unit = amountList[i + 1];
+                            // Support unitless counts
+                            let unit = null;
+                            if (i + 1 < amountList.length) {
+                                unit = amountList[i + 1];
+                            }
                             seenIngredients.push(new Ingredient(name, amount, unit));
                         }
                     });

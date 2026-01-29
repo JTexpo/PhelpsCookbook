@@ -9,6 +9,7 @@ export const ALL_FOOD_INFO_FILES = [
     "spinach-balls.json",
     "grandmoms-cucumber-sandwiches.json",
     "cowboy-caviar.json",
+    "grandmoms-strawberry-cake.json",
     "eggroll-in-a-bowl.json",
     "cheesy-chicken-broccoli-n-rice.json",
     "anabolic-french-toast.json",
@@ -23,7 +24,7 @@ export class Ingredient {
     constructor(name, amount, unit) {
       this.name = name; // String
       this.amount = amount; // Number
-      this.unit = unit; // String
+      this.unit = unit; // String or null (no unit)
 
       // Some ingredients may be tough to convert (i.e., cloves of garlic)
       this.unitIsConvertible = Ingredient.#SUPPORTED_UNITS.has(unit); // Boolean
@@ -137,11 +138,16 @@ export class Ingredient {
             amountsMap.forEach((summedAmount, summedUnit, amountsMap) => {
                 // todo: print in a more logical way (i.e., convert to largest whole conversion, larger
                 // weighted units- worth more tsp- first, etc.)
-                sumStr += summedAmount + " " + summedUnit + ",";
+                sumStr += summedAmount;
+                // Support unitless counts (represented with null unit)
+                if (summedUnit != null) {
+                    sumStr += " " + summedUnit;
+                }
+                sumStr += ", ";
             });
-            if (sumStr.endsWith(",")) {
+            if (sumStr.endsWith(", ")) {
                 // Remove the last comma
-                sumStr = sumStr.slice(0, -1);
+                sumStr = sumStr.slice(0, -2);
             }
             sumStrMap.set(ingredientName, sumStr);
         }

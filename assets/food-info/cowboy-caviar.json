@@ -1,6 +1,6 @@
 {
     "id":"cowboy-caviar",
-    "name":"Cowboy Caviar",
+    "name":"Cowboy Caviar (Colby's Favorite)",
     "author":"Chris Crawley",
     "ingredients":{
         "Canned Black-Eyed Peas": [45, "oz"],
@@ -11,7 +11,7 @@
         "Red Onion": [1, "small"],
         "Bell Pepper": [1, "green", 1, "red"],
         "Italian Salad Dressing": [16, "oz"],
-        "Avocados": [2, "ripe"]
+        "Avocados": [2]
     },
     "steps":[
         "Drain and rinse the black-eyed peas and black beans.",

@@ -25,13 +25,17 @@ function loadRecipe(name) {
             Object.entries(data.ingredients).forEach(([item, amountList]) => {
                 // Support ingredient lists that provide multiple amounts in different units
                 let countStr = " (";
-                for (var i = 0; i + 1 < amountList.length; i += 2) {
+                for (var i = 0; i < amountList.length; i += 2) {
                     const amount = amountList[i];
-                    const unit = amountList[i + 1];
-                    countStr += amount + " " + unit;
-                    if (i + 3 < amountList.length) {
-                        // Expecting another amount
-                        countStr += ", ";
+                    // Support unitless counts
+                    countStr += amount;
+                    if (i + 1 < amountList.length) {
+                        const unit = amountList[i + 1];
+                        countStr += " " + unit;
+                        if (i + 2 < amountList.length) {
+                            // Expecting another amount
+                            countStr += ", ";
+                        }
                     }
                 }
                 countStr += ")";
