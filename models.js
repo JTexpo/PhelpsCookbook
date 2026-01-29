@@ -8,6 +8,7 @@ export const ALL_FOOD_INFO_FILES = [
     "sausage-balls.json",
     "spinach-balls.json",
     "grandmoms-cucumber-sandwiches.json",
+    "cowboy-caviar.json",
     "eggroll-in-a-bowl.json",
     "cheesy-chicken-broccoli-n-rice.json",
     "anabolic-french-toast.json",
@@ -15,7 +16,6 @@ export const ALL_FOOD_INFO_FILES = [
     "zuchini-boats.json",
     "honey-chicken.json"
 ]
-ALL_FOOD_INFO_FILES.sort();
 
 // Ingredient class
 export class Ingredient {

@@ -1,4 +1,5 @@
 import {ALL_FOOD_INFO_FILES, Ingredient} from "./models.js";
+ALL_FOOD_INFO_FILES.sort();
 
 const WEEKDAY_IDS = ["m", "t", "w", "th", "f", "s", "su"];
 const MEALTYPE_IDS = ["b", "l", "d"];
@@ -401,12 +402,15 @@ function updateIngredients(weeklyMeals){
             fetch(`./assets/food-info/${meal.replaceAll(" ", "-")}.json`)
                 .then(response => response.json())
                 .then(data => {
-                    // ingredients: Map of Names to Array [ Amount, Unit ]
+                    // ingredients: Map of Names to Array [ Amount, Unit, ... ]
                     Object.entries(data.ingredients).forEach(([name, amountList]) => {
-                        // Create an Ingredient object from the JSON map
-                        const amount = amountList[0];
-                        const unit = amountList[1];
-                        seenIngredients.push(new Ingredient(name, amount, unit));
+                        // Support ingredient lists that provide multiple amounts in different units
+                        for (var i = 0; i + 1 < amountList.length; i += 2) {
+                            // Create an Ingredient object from the JSON map
+                            const amount = amountList[i];
+                            const unit = amountList[i + 1];
+                            seenIngredients.push(new Ingredient(name, amount, unit));
+                        }
                     });
 
                     // Get a Map of ingredient Names to prepared String with summed amounts/ units
