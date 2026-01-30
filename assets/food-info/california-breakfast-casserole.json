@@ -1,0 +1,26 @@
+{
+    "id":"california-breakfast-casserole",
+    "name":"California Breakfast Casserole",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Sausage Patties": [12],
+        "Tomato": [3, "slices"],
+        "Avacado": [3, "slices"],
+        "Eggs": [12, "large"],
+        "Milk": [1, "cup"],
+        "Hash Browns": [1, "lbs"],
+        "Cheddar Cheese": [2, "cup"],
+        "Salt": [1, "tsp"],
+        "Pepper": [0.5, "tsp"]
+    },
+    "steps":[
+        "Line the bottom of a greased 9x13 pan with sausage.",
+        "Layer tomatoes and avocado slices over sausage.",
+        "In a bowl, beat eggs and milk.",
+        "Stir in all other ingredients.",
+        "Pour hash and egg mixture over the sausage, tomatoes, and avocados.",
+        "Bake at 350 for 45 min or until well set.",
+        "Top with extra cheddar right after pulling out of the oven so it melts all over the top.",
+        "Serve with salsa, diced tomatoes, and sour cream."
+    ]
+}

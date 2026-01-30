@@ -17,7 +17,11 @@ export const ALL_FOOD_INFO_FILES = [
     "pumpkin-sausage-soup.json",
     "poppy-seed-loaf-delight.json",
     "zuchini-boats.json",
-    "honey-chicken.json"
+    "honey-chicken.json",
+    "monterey-chicken.json",
+    "california-breakfast-casserole.json",
+    "southwest-quinoa-salad.json",
+    "sausage-n-bacon-grits-muffins.json",
 ]
 
 // Ingredient class

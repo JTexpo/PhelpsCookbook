@@ -1,0 +1,27 @@
+{
+    "id":"monterey-chicken",
+    "name":"Monterey Chicken",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Chicken Breasts": [4, "lb"],
+        "Barbecue Sauce": [1, "cup"],
+        "Monterey Jack Cheese": [1, "cup"],
+        "Cheddar Cheese": [0.5, "cup"],
+        "Bacon Crumbles": [0.5, "cup"],
+        "Olive Oil": [2, "tbsp"],
+        "Garlic Powder": [1, "tsp"],
+        "Onion Powder": [1, "tsp"],
+        "Paprika": [1, "tsp"]
+    },
+    "steps":[
+        "Preheat the Oven: Preheat your oven to 375°F (190°C).",
+        "Prepare the Chicken: Flatten the chicken breasts slightly with a meat mallet for even cooking.",
+        "Season the Chicken: Brush the chicken breasts with olive oil, and season with garlic powder, onion powder, smoked paprika, salt, and black pepper.",
+        "Sear the Chicken: Heat a skillet over medium-high heat. Add the seasoned chicken breasts and sear for 5-7 minutes on each side until golden brown.",
+        "Transfer to Baking Dish: Once seared, place the chicken in a baking dish.",
+        "Add Barbecue Sauce: Pour the barbecue sauce evenly over the top of each chicken breast.",
+        "Add Cheese and Bacon: Sprinkle the shredded monterey jack and cheddar cheese on top of the sauce. Then, add the crumbled bacon evenly over the cheese.",
+        "Bake: Place the baking dish in the preheated oven and bake for 20-25 minutes or until the chicken is cooked through (internal temperature should reach 165°F or 74°C).",
+        "Garnish: Once baked, remove from the oven and let it rest for a few minutes. Garnish with fresh cilantro if desired."
+    ]
+}

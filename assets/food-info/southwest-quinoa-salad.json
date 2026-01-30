@@ -1,0 +1,26 @@
+{
+    "id":"southwest-quinoa-salad",
+    "name":"Southwest Quinoa Salad",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Olive Oil": [4, "tsp"],
+        "Garlic": [2, "cloves"],
+        "Quinoa": [1, "cup"],
+        "Vegetable Broth": [1.75, "cup"],
+        "Corn": [1, "cup"],
+        "Black Beans": [15, "oz"],
+        "Bell Pepper": [1, "Red"],
+        "Green Onion": [4, "sliced"],
+        "Cilantro": [2, "tsp"],
+        "Lime Juice": [3, "tbsp"],
+        "Honey": [1, "tbsp"],
+        "Chili Powder": [1, "tsp"],
+        "Ground Cumin": [30.5, "tsp"]
+    },
+    "steps":[
+        "Heat the 2 teaspoons olive oil in a medium saucepan over medium heat. Add the garlic and saute until fragrant, stirring, about 1 minute. Add the quinoa and vegetable broth (or water) and bring to a boil. Reduce the heat, cover, and simmer until the liquid has been absorbed, about 12-16 minutes. Remove from the heat.",
+        "While the quinoa cooks, prepare the lime vinaigrette. In a small bowl or jar, combine the dressing ingredients. Whisk (or shake in a jar with a lid) until well combined.",
+        "Transfer the cooked quinoa to a large bowl and stir in the corn, black beans, bell pepper, green onions and cilantro. Add the dressing and stir gently to combine. Taste and adjust seasonings as necessary.",
+        "Salad can be served immediately or chilled in the refrigerator before serving. We love it topped with guacamole or sliced avocado."
+    ]
+}

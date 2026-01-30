@@ -1,0 +1,29 @@
+{
+    "id":"sausage-n-bacon-grits-muffins",
+    "name":"Sausage and Bacon Grits Muffins",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Grits": [1, "cup"],
+        "Water": [3, "cup"],
+        "Milk": [1, "cup"],
+        "Monterrey Cheese": [0.25, "cup"],
+        "Colby Jack Cheese": [0.25, "cup"],
+        "Eggs": [2, "large"],
+        "Pepper": [1, "tsp"],
+        "Salt": [1, "tsp"],
+        "Bacon Strips": [6, "large"],
+        "Sausage Crumble": [8, "oz"]
+    },
+    "steps":[
+        "Preheat oven to 415 degrees F.",
+        "Cook bacon and sausage. Drain excess grease and set aside.",
+        "Bring water to a boil in a medium sauce pan. Add one cup of grits and cook for about 6 minutes.",
+        "Add cheese and mix until it's completely melted.",
+        "Add milk, eggs, pepper, salt, cooked bacon, and cooked sausage.",
+        "Spray mini-muffin pan with cooking spray.",
+        "Scoop mixture into each muffin pan, filling each spot about 3/4 full.",
+        "Cook for 30 minutes or until a fork is inserted and comes out relatively cleanly.",
+        "Let cool slightly before eating.",
+        "Best when served with a creamy, white sauce."
+    ]
+}
