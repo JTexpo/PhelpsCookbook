@@ -1,0 +1,19 @@
+{
+    "id":"moms-mexican-casserole",
+    "name":"Mom's Mexican Casserole",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Ground Meat [beef or turkey]": [1, "casserole amount"],
+        "Onion": [1, "casserole amount"],
+        "Ranch Style Beans": [1, "casserole amount"],
+        "Cream of Mushroom Soup": [1, "casserole amount"],
+        "Tortilla Chips": [1, "casserole amount"],
+        "Shredded Cheese": [1, "casserole amount"]
+    },
+    "steps":[
+        "Cook meat, drain.",
+        "Add onions, beans, and soup. Mix well.",
+        "Crush tortilla chips, stir in, top with cheese.",
+        "Bake at 350 until it looks right."
+    ]
+}

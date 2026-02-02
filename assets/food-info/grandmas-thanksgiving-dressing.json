@@ -1,0 +1,29 @@
+{
+    "id":"grandmas-thanksgiving-dressing",
+    "name":"Grandma's Thanksgiving Dressing",
+    "author":"Patricia Bruner",
+    "ingredients":{
+        "Jiffy Cornbread Mix": [2, "boxes"],
+        "Eggs": [4],
+        "Milk": [0.667, "cups"],
+        "Stuffing Mix": [1, "box"],
+        "Crackers": [1, "dressing amount"],
+        "Any Stale Leftover Bread": [1, "dressing amount"],
+        "Butter": [1, "dressing amount"],
+        "Chicken Broth": [1, "dressing amount"],
+        "Celery": [1, "dressing amount"],
+        "Onion": [1, "dressing amount"],
+        "Salt": [1, "dressing amount"],
+        "Onion Powder": [1, "dressing amount"],
+        "Garlic Powder": [1, "dressing amount"],
+        "Sage": [1, "dressing amount"],
+        "Black Pepper": [1, "dressing amount"]
+    },
+    "steps":[
+        "Cook cornbread mix according to package directions, using 2 of the eggs and the milk.",
+        "Use a fork to crumble the cornbread until fine.",
+        "Combine with stuffing mix, crushed cracker crumbs, torn bread pieces, diced onion and celery.",
+        "Add melted butter, 2 eggs, spices, and enough chicken broth to make dressing soupy.",
+        "Cover with foil and bake at 350 until edges are brown and center is cooked through."
+    ]
+}

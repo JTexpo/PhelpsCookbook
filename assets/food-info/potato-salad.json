@@ -1,0 +1,26 @@
+{
+    "id":"potato-salad",
+    "name":"Potato Salad",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Potatoes": [1, "salad amount"],
+        "Mayonnaise": [1, "salad amount"],
+        "Mustard": [1, "salad amount"],
+        "Pickles or Sweet Relish": [1, "salad amount"],
+        "Onion": [1, "salad amount"],
+        "Eggs": [1, "salad amount"],
+        "Salt": [1, "salad amount"],
+        "Black Pepper": [1, "salad amount"],
+        "Paprika": [1, "salad amount"],
+        "Onion Powder": [1, "salad amount"],
+        "Lemon Pepper": [1, "salad amount"],
+        "Garlic Powder": [1, "salad amount"],
+        "Sweetener": [1, "salad amount"]
+    },
+    "steps":[
+        "Peel, cut, and boil potatoes until soft. Drain and mash to desired consistency.",
+        "Boil and dice the eggs.",
+        "Add remaining ingredients to the mashed potatoes. If using pickles instead of relish, also splash in some pickle juice.",
+        "Combine and chill."
+    ]
+}
