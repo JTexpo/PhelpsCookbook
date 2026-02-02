@@ -4,20 +4,30 @@
     "author":"Chari Crawley",
     "ingredients":{
         "Ground Meat [beef, turkey, and/or sausage]": [1, "chili amount"],
-        "Onions": [1, "chili amount"],
-        "Peppers": [1, "chili amount"],
+        "Onion": [1, "chili amount"],
+        "Bell Pepper": [1, "chili amount"],
         "Garlic": [1, "chili amount"],
         "Canned Crushed Tomatoes": [1, "chili amount"],
         "Tomato Sauce": [1, "chili amount"],
         "Tomato Paste": [1, "chili amount"],
-        "Spices": [1, "chili amount"],
-        "Jalapeno Juice [candied jalapenos is best!]": [1, "chili amount"]
+        "Jalapeno Juice [candied jalapenos is best!]": [1, "chili amount"],
+        "Salt": [1, "chili amount"],
+        "Chili Powder": [1, "chili amount"],
+        "Onion Powder": [1, "chili amount"],
+        "Paprika": [1, "chili amount"],
+        "Cumin": [1, "chili amount"],
+        "Oregano": [1, "chili amount"],
+        "Lemon Pepper": [1, "chili amount"],
+        "Black Pepper": [1, "chili amount"],
+        "Slap Ya Momma": [1, "chili amount"],
+        "Worcestershire Sauce": [1, "chili amount"],
+        "Sweetener": [1, "chili amount"]
     },
     "steps":[
         "Cook meat, drain, set aside.",
         "Cook onions, peppers, garlic. Add meat back to skillet.",
         "Add crushed tomatoes, tomato sauce, and tomato paste.",
-        "Stir, add jalapeno juice and spices- salt, chili powder, onion powder, paprika, cumin, oregano, lemon pepper, pepper, Slap Ya Momma, worcestershire sauce, sweetener... measure nothing! Stir and simmer.",
+        "Stir, add jalapeno juice and spices- measure nothing! Stir and simmer.",
         "Top with shredded cheese, sour cream, and jalapenos."
     ]
 }
