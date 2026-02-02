@@ -8,6 +8,7 @@ export const ALL_FOOD_INFO_FILES = [
     "cowboy-caviar.json",
     "easy-taco-soup.json",
     "eggroll-in-a-bowl.json",
+    "grandmas-thanksgiving-dressing.json",
     "grandmoms-cucumber-sandwiches.json",
     "grandmoms-strawberry-cake.json",
     "honey-chicken.json",
