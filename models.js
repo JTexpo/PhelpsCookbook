@@ -21,6 +21,7 @@ export const ALL_FOOD_INFO_FILES = [
     "sausage-balls.json",
     "southwest-quinoa-salad.json",
     "spinach-balls.json",
+    "taco-salad.json",
     "tofu-stirfry.json",
     "vegan-chili.json",
     "zuchini-boats.json",

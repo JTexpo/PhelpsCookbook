@@ -1,0 +1,21 @@
+{
+    "id":"taco-salad",
+    "name":"Taco Salad",
+    "author":"Chari Crawley",
+    "ingredients":{
+        "Lettuce": [1, "salad amount"],
+        "Tomatoes": [1, "salad amount"],
+        "Ranch Style Beans": [1, "salad amount"],
+        "Catalina Salad Dressing": [1, "salad amount"],
+        "Canned Black Olives": [1, "salad amount"],
+        "Salsa": [1, "salad amount"],
+        "Shredded Cheese": [1, "salad amount"],
+        "Tortilla Chips": [1, "salad amount"],
+        "Ground Meat [optional]": [1, "salad amount"]
+    },
+    "steps":[
+        "Make salad with lettuce and tomatoes.",
+        "Drain the olives. If using meat, cook and drain it.",
+        "Add all remaining ingredients to the salad and combine."
+    ]
+}
