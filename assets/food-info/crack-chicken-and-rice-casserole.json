@@ -1,0 +1,26 @@
+{
+    "id":"crack-chicken-and-rice-casserole",
+    "name":"Crack Chicken and Rice Casserole",
+    "author":"Brittany Biddy",
+    "ingredients": {
+        "Chicken Rice-a-Roni [any boxed rice and pasta mix]": [6.9, "oz"],
+        "Carrot": [2, "medium"],
+        "Bell Pepper": [0.5],
+        "Onion": [0.5, "medium"],
+        "Cream of Chicken Soup": [10.5, "oz"],
+        "Sour Cream": [1, "cup"],
+        "Chicken Breasts": [1, "lb"],
+        "Black Pepper": [0.5, "tsp"],
+        "Cheddar Cheese": [0.5, "cup shredded"]
+    },
+    "steps":[
+        "Cook and chop the chicken breast to yield about 2 cups.",
+        "Thinly slice or shred the carrots to yield about 1 cup.",
+        "Finely dice the bell pepper and onion to yield about 1/2 cup each.",
+        "Preheat the oven to 350 degrees F. Grease a 9x13 baking dish.",
+        "Cook the rice a roni according to package directions, adding the carrots, bell pepper and onion in the last 5 minutes of cooking.",
+        "When the rice is cooked through, stir in the cream soup, sour cream, chicken breast and black pepper. Remove from heat.",
+        "Spread the rice mixture evenly in the prepared baking dish. Cover evenly with cheese.",
+        "Bake uncovered for 30 minutes then serve!"
+    ]
+}
