@@ -9,7 +9,7 @@
         "Eggs": [12, "large"],
         "Milk": [1, "cup"],
         "Hash Browns": [1, "lbs"],
-        "Cheddar Cheese": [2, "cup shredded"],
+        "Cheddar Cheese": [2, "cups shredded"],
         "Salt": [1, "tsp"],
         "Pepper": [0.5, "tsp"]
     },

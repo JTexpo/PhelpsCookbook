@@ -55,6 +55,8 @@ export class Ingredient {
         ["ounces", 6],
         ["cup", 48], // 8oz
         ["cups", 48],
+        ["cup shredded", 48],
+        ["cups shredded", 48],
         ["pt", 96],  // 2 cups
         ["pts", 96],
         ["pint", 96],
