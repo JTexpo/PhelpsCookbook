@@ -12,7 +12,7 @@
         "Thyme": [0.5, "tsp"],
         "Margarine": [0.5, "cup"],
         "Eggs": [5, "large"],
-        "Shredded Parmesan Cheese": [1, "cup"]
+        "Parmesan Cheese": [1, "cup shredded"]
     },
     "steps":[
         "Microwave spinach as package directions call for and drain well.",

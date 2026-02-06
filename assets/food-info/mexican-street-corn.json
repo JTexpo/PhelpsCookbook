@@ -1,0 +1,25 @@
+{
+    "id":"mexican-street-corn",
+    "name":"Mexican Street Corn",
+    "author":"Brittany Biddy",
+    "ingredients": {
+        "Corn": [4, "cups"],
+        "Mayonnaise": [0.25, "cup"],
+        "Sour Cream": [0.25, "cup"],
+        "Lime Juice": [1.5, "tbsp"],
+        "Lime Zest": [0.25, "tsp"],
+        "Extra Virgin Olive Oil": [1, "tbsp"],
+        "Chives": [1, "tbsp"],
+        "Chili Powder": [0.25, "tsp"],
+        "Smoked Paprika": [0.25, "tsp"],
+        "Cilantro": [1, "small handful"],
+        "Crumbled Cotija Cheese": [1, "small handful"],
+        "Salt": [1, "tsp"]
+    },
+    "steps":[
+        "Grill or sauté the corn (or 50/50 both!). To grill corn, brush each cob with a light layer of olive oil, and grill for about 12 minutes (3 minutes per side) over medium-high heat. Cut 4 cups of grilled kernels off the cob. Alternatively, sauté corn cut off the cob in olive oil for 4-7 minutes over medium heat until just tender and warmed.",
+        "Let corn cool to room temperature. While cooling, finely chop the chives (or scallions) and the cilantro (or parsley).",
+        "Mix together the mayo, sour cream, lime zest and then juice, chopped chives (or scallions), chili powder, smoked paprika, and salt.",
+        "Add the cooled corn to the sauce. Place street corn in a serving bowl, and top with chopped cilantro (or parsley) and cotija cheese. Enjoy!"
+    ]
+}

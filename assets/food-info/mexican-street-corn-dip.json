@@ -1,0 +1,18 @@
+{
+    "id":"mexican-street-corn-dip",
+    "name":"Mexican Street Corn Dip",
+    "author":"Brittany Biddy",
+    "ingredients": {
+        "Mexicorn": [2, "cans"],
+        "Rotel": [1, "can"],
+        "Cheddar Cheese": [2, "cups shredded"],
+        "Green Onion": [8],
+        "Mayonnaise": [1, "cup"],
+        "Sour Cream": [8, "oz"],
+        "Cilantro": [1, "bunch"]
+    },
+    "steps":[
+        "Slice the green onions.",
+        "Combine all ingredients, and enjoy with chips."
+    ]
+}
