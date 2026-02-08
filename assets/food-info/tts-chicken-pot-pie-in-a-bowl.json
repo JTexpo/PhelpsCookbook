@@ -3,9 +3,22 @@
     "name":"TT's Chicken Pot Pie in a Bowl",
     "author":"TT",
     "ingredients":{
-        "TODO": [2]
+        "Rotisserie Chicken [from Costco]": [1, "bag"],
+        "Cream of Chicken Soup [organic]": [1, "can"],
+        "Frozen Peas and Carrots [organic]": [1, "bag"],
+        "Butter": [0.25, "cup"],
+        "Onion": [0.5, "organic"],
+        "Celery": [3, "organic stalks"],
+        "Ground Pepper [organic]": [1, "soup amount"],
+        "Bone Broth [organic]": [0.5, "cup"]
     },
     "steps":[
-        ""
+        "Dice the onion and celery. In a pot, melt the butter and sauté the diced onion until it becomes fragrant.",
+        "Add the bone broth, diced celery and the frozen peas and carrots to the pot, and cook until they're no longer frozen.",
+        "While the vegetables are cooking, shred the rotisserie chicken into bite-sized pieces.",
+        "Once the veggies are ready, add the shredded chicken to the pot over medium-high heat.",
+        "Pour in the can of organic cream of chicken soup and stir everything together until well-blended.",
+        "Season with ground pepper to taste.",
+        "Once everything is combined and heated through, serve and enjoy!"
     ]
 }
