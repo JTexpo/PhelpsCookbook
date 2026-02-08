@@ -3,9 +3,33 @@
     "name":"TT's Garden Spaghetti",
     "author":"TT",
     "ingredients":{
-        "TODO": [2]
+        "Ground Turkey [free range]": [1, "lb"],
+        "Yellow Onion": [1, "organic"],
+        "Bell Pepper": [1, "organic green"],
+        "Spinach [organic, fresh]": [2, "handfuls"],
+        "Basil [organic, fresh]": [1, "pasta amount"],
+        "Oregano [organic, dried]": [1, "pasta amount"],
+        "Vegetable Broth [organic]": [1, "cup"],
+        "Bone Broth [organic]": [1, "cup"],
+        "Grape Tomatoes [organic]": [1, "cup"],
+        "Arugula [organic]": [2, "handfuls"],
+        "Carrots [organic, shredded]": [1, "bag"],
+        "Squash": [1, "organic"],
+        "Zucchini": [1, "organic"],
+        "Tomato Paste": [2, "spoonfuls"],
+        "Marinara Sauce [organic]": [0.5, "cup"],
+        "Spiral Noodles": [1, "box"],
+        "Mozzarella Cheese [shredded]": [1, "pasta amount"],
+        "Parmesan Cheese [shredded]": [1, "pasta amount"],
+        "Black Pepper": [1, "pasta amount"]
     },
     "steps":[
-        ""
+        "Dice the onion. In a large pot, brown the ground turkey with half of the diced onion until fully cooked.",
+        "Peel the squash and zucchini, then dice all the vegetables and add them to the pot.",
+        "Pour in one cup each of vegetable broth and bone broth, and bring to a simmer until the vegetables begin to soften.",
+        "Add the grape tomatoes (halved), tomato paste and the ½ cup of marinara sauce (or more to taste if you prefer), and let it cook for a few more minutes.",
+        "In a separate pot, boil the spiral noodles according to the package instructions.",
+        "Once everything is done, combine the cooked noodles with the vegetable and turkey mixture.",
+        "Sprinkle with shredded mozzarella and Parmesan cheese, and season with ground pepper to taste."
     ]
 }
