@@ -1,11 +1,31 @@
 {
     "id":"tts-turkey-chili",
     "name":"TT's Turkey Chili",
-    "author":"TT",
+    "author":"Ty Phelps",
     "ingredients":{
-        "TODO": [2]
+        "Bell Pepper": [1, "organic red"],
+        "Celery": [3, "organic stalks"],
+        "Onion": [0.5, "organic"],
+        "Mixed Beans [organic, kidney and black]": [1, "can"],
+        "Bone Broth [organic]": [2, "cups"],
+        "Bay Leaves": [2],
+        "Oregano [organic, dried]": [1, "tsp"],
+        "Onion Powder [organic]": [1, "tsp"],
+        "Chili Powder [organic]": [1, "tsp"],
+        "Ground Cumin [organic]": [1, "tbsp"],
+        "Tomato Paste": [1, "spoonful"],
+        "Ground Turkey [free range]": [1, "lb"]
     },
     "steps":[
-        ""
+        "Dice all the vegetables (red bell pepper, celery, and onion).",
+        "In a large pot, brown the ground turkey with the diced onion until the meat is fully cooked.",
+        "Add the diced celery and red bell pepper to the pot, and cook until they begin to soften.",
+        "Stir in the oregano, onion powder, chili powder and remaining seasoning ",
+        "Drain the beans and add the to the pot.",
+        "Pour in the bone broth (use more than 2 cups if needed), and add the two bay leaves.",
+        "Add a spoonful of tomato paste and stir well to combine.",
+        "Reduce the heat to low and let the chili simmer for about 25 minutes, stirring frequently. Chili should be thick but also a little liquified but not soupy. ",
+        "Taste and adjust seasoning as needed.",
+        "Serve hot and enjoy!"
     ]
 }
