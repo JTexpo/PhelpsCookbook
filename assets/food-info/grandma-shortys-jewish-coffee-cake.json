@@ -3,9 +3,28 @@
     "name":"Grandma Shorty's Jewish Coffee Cake",
     "author":"Grandma Shorty",
     "ingredients":{
-        "TODO": [2]
+        "Butter": [0.25, "lb"],
+        "Sugar": [1.5, "cup"],
+        "Eggs": [2],
+        "Sour Cream": [1, "cup"],
+        "Flour": [2, "cups"],
+        "Baking Powder": [1.5, "tsp"],
+        "Baking Soda": [1, "tsp"],
+        "Salt": [0.5, "tsp"],
+        "Vanilla": [1, "tsp"],
+        "Cinnamon": [3, "tsp"],
+        "Walnuts [chopped]": [0.5, "cup"]
     },
     "steps":[
-        ""
+        "Preheat oven to 350°F.",
+        "In a large bowl, cream together the butter, 1 cup of the sugar, eggs, and vanilla until smooth.",
+        "Blend in the sour cream.",
+        "In a separate bowl, mix together the flour, baking powder, baking soda, and salt. Gradually add the dry ingredients to the batter.",
+        "Make the topping in a separate bowl by combining the remaining 1/2 cup of sugar, cinnamon, and walnuts.",
+        "Pour ½ of the batter into a greased angel food or tube pan.",
+        "Sprinkle ½ of the topping evenly over the batter.",
+        "Add the remaining batter, then sprinkle the remaining topping on top.",
+        "Bake for 35-45 minutes, or until a toothpick inserted in the center comes out clean.",
+        "Allow to cool slightly before serving."
     ]
 }
