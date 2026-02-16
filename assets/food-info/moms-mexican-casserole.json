@@ -8,7 +8,7 @@
         "Ranch Style Beans": [1, "casserole amount"],
         "Cream of Mushroom Soup": [1, "casserole amount"],
         "Tortilla Chips": [1, "casserole amount"],
-        "Shredded Cheese": [1, "casserole amount"]
+        "Cheese [shredded]": [1, "casserole amount"]
     },
     "steps":[
         "Cook meat, drain.",

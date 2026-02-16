@@ -12,12 +12,12 @@
         "Chicken Thighs": [1.5, "lbs"],
         "Salt": [3, "tbsp"],
         "Black Pepper": [3, "tbsp"],
-        "Canned Black Beans": [15, "oz"],
-        "Frozen Corn": [1, "cup"],
+        "Black Beans [canned]": [15, "oz"],
+        "Corn [frozen]": [1, "cup"],
         "Salsa": [16, "oz"],
         "Rice": [1, "cup"],
         "Cheddar Cheese": [0.5, "cup shredded"],
-        "Chopped Fresh Cilantro": [0.25, "cup"]
+        "Cilantro [fresh]": [0.25, "cup"]
     },
     "steps":[
         "Add the oil to the Instant Pot, turn on sauté setting, and heat until shimmering. Add the onion and garlic and cook, stirring occasionally, until softened, about 4 minutes.",
@@ -26,6 +26,6 @@
         "Season the chicken all over with the salt and pepper.",
         "Add the chicken, beans, corn, salsa, and stir to combine. Sprinkle the rice over the top. Pour the remaining 3/4 cup broth over the rice, but do not stir.",
         "Using the manual setting, set the pressure to HIGH for 10 minutes. Close and lock the lid. It should take the pressure cooker about 10 to 12 minutes to come to pressure and begin the 10 minute countdown. When the cooking time is complete, do a quick release of the pressure.",
-        "Gently stir everything together. Divide between bowls and top with the cheese and cilantro."
+        "Gently stir everything together. Divide between bowls and top with the cheese and chopped cilantro."
     ]
 }

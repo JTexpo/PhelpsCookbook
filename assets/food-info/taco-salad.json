@@ -9,7 +9,7 @@
         "Catalina Salad Dressing": [1, "salad amount"],
         "Canned Black Olives": [1, "salad amount"],
         "Salsa": [1, "salad amount"],
-        "Shredded Cheese": [1, "salad amount"],
+        "Cheese [shredded]": [1, "salad amount"],
         "Tortilla Chips": [1, "salad amount"],
         "Ground Meat [optional]": [1, "salad amount"]
     },

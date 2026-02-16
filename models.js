@@ -10,9 +10,12 @@ export const ALL_FOOD_INFO_FILES = [
     "crock-pot-green-enchilada-chicken-soup.json",
     "easy-taco-soup.json",
     "eggroll-in-a-bowl.json",
+    "grandma-shortys-jewish-coffee-cake.json",
     "grandmas-thanksgiving-dressing.json",
     "grandmoms-cucumber-sandwiches.json",
     "grandmoms-strawberry-cake.json",
+    "great-great-grandma-barnes-rhubarb-pie.json",
+    "great-great-uncle-charles-ginger-cookies.json",
     "honey-chicken.json",
     "mexican-street-corn-dip.json",
     "mexican-street-corn.json",
@@ -29,6 +32,9 @@ export const ALL_FOOD_INFO_FILES = [
     "spinach-balls.json",
     "taco-salad.json",
     "tofu-stirfry.json",
+    "tts-chicken-pot-pie-in-a-bowl.json",
+    "tts-garden-spaghetti.json",
+    "tts-turkey-chili.json",
     "vegan-chili.json",
     "zuchini-boats.json",
 ]
@@ -50,6 +56,7 @@ export class Ingredient {
         // todo: support unit aliases/ plurals better
         ["tsp", 1],
         ["tbsp", 3],
+        ["level tbsp", 3],
         ["oz", 6],
         ["ounce", 6],
         ["ounces", 6],
@@ -103,6 +110,22 @@ export class Ingredient {
             // Determine if we're already tracking this ingredient
             if (sumMap.has(ingredient.name)) {
                 let iMap = sumMap.get(ingredient.name);
+                // In case this is a non-convertible unit, try to accomodate plurality
+                if (ingredient.unit != null) {
+                    console.log("This ingredient is not null...");
+                    let unit_str_trimmed = ingredient.unit.slice(0, -1);
+                    let unit_str_plural = ingredient.unit + "s";
+                    if (ingredient.unit.endsWith("s") && iMap.has(unit_str_trimmed)) {
+                        // We're actually already tracking the singular version of this ingredient!
+                        // Start tracking the plural
+                        iMap.set(ingredient.unit, iMap.get(unit_str_trimmed));
+                        iMap.delete(unit_str_trimmed);
+                    } else if ((! ingredient.unit.endsWith("s")) && iMap.has(unit_str_plural)) {
+                        // We're actually already tracking the plural version of this ingredient!
+                        // Set this ingredient's unit to plural
+                        ingredient.unit = unit_str_plural;
+                    }
+                }
                 // Determine if we're already tracking this unit
                 if (iMap.has(ingredient.unit)) {
                     iMap.set(ingredient.unit, iMap.get(ingredient.unit) + ingredient.amount);

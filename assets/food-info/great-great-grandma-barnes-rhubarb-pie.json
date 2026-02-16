@@ -1,0 +1,25 @@
+{
+    "id":"great-great-grandma-barnes-rhubarb-pie",
+    "name":"Great-Great Grandma Barnes' Rhubarb Pie",
+    "author":"Great-Great Grandma Barnes",
+    "ingredients":{
+        "Pie Pastry [9-inch, Pillsbury works great]": [2, "crusts"],
+        "Rhubarb": [1, "lb"],
+        "Sugar": [1.5, "cups"],
+        "Flour": [3, "level tbsp"],
+        "Egg": [1],
+        "Butter": [2, "tbsp"]
+    },
+    "steps":[
+        "Preheat oven to 375°F.",
+        "Line a 9-inch pie plate with the bottom pie crust.",
+        "Cut the rhubarb into bite-size pieces.",
+        "In a large bowl, mix together the rhubarb (cut into bite-size pieces), sugar, flour, and egg (beaten) until well combined.",
+        "Pour the filling into the prepared bottom crust.",
+        "Dot the top of the filling with small pieces of butter.",
+        "Place the top crust over the filling and seal the edges as desired.",
+        "Bake for 50-60 minutes, or until the crust is golden and the filling is bubbling.",
+        "Remove from the oven, let cool slightly, and serve.",
+        "Enjoy!"
+    ]
+}
