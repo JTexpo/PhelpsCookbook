@@ -3,9 +3,24 @@
     "name":"Great-Great Uncle Charles' Ginger Cookies",
     "author":"Great-Great Uncle Charles",
     "ingredients":{
-        "TODO": [2]
+        "Eggs": [2],
+        "Oil": [0.5, "cup"],
+        "Molasses": [0.5, "cup"],
+        "Sugar": [0.5, "cup"],
+        "Flour": [2, "cups"],
+        "Ground Ginger": [2, "tsp"],
+        "Baking Soda": [2, "tsp"],
+        "Cinnamon": [1, "tsp"],
+        "Salt": [0.5, "tsp"],
+        "Water": [1, "drizzle"]
     },
     "steps":[
-        ""
+        "Preheat oven to 375°F.",
+        "In a large bowl, mix together the eggs, oil, molasses, and sugar.",
+        "In a separate bowl, combine flour (2+ heaping cups), ginger, baking soda, cinnamon, and salt.",
+        "Add dry ingredients to wet ingredients and mix until combined.",
+        "[optional] Add a small drizzle of water if needed to reach desired consistency.",
+        "Scoop dough onto a baking sheet.",
+        "Bake for 8-10 minutes."
     ]
 }
