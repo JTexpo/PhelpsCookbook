@@ -28,6 +28,7 @@ export const ALL_FOOD_INFO_FILES = [
     "pumpkin-sausage-soup.json",
     "sausage-n-bacon-grits-muffins.json",
     "sausage-balls.json",
+    "shwarma-chicken-chickpea-sheet-pan.json",
     "southwest-quinoa-salad.json",
     "spinach-balls.json",
     "taco-salad.json",

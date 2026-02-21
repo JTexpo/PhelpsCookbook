@@ -1,0 +1,31 @@
+{
+    "id":"shwarma-chicken-chickpea-sheet-pan",
+    "name":"Shwarma Chicken Chickpea Sheet Pan",
+    "author":"Payton Ayala",
+    "ingredients":{
+        "Bell Pepper": [1, "red"],
+        "Onion": [1],
+        "Chicken Breasts": [2, "breasts"],
+        "Chickpeas": [1, "can"],
+        "Olive Oil": [1, "sheetpan amount"],
+        "Salt": [1, "sheetpan amount"],
+        "Black Pepper": [1, "sheetpan amount"],
+        "Garlic Powder": [1, "sheetpan amount"],
+        "Shwarma Seasoning": [1, "sheetpan amount"],
+        "Chili Powder": [1, "sheetpan amount"],
+        "Ground Cumin": [1, "sheetpan amount"],
+        "Onion Powder": [1, "sheetpan amount"],
+        "Za'atar": [1, "sheetpan amount"],
+        "Tumeric": [1, "sheetpan amount"],
+        "Ground Coriander": [1, "sheetpan amount"],
+        "Lemon Juice": [1, "sheetpan amount"],
+        "Tomato [optional]": [1, "sheetpan amount"]
+    },
+    "steps":[
+        "Cut the chicken into cubes. Rinse the canned chickpeas.",
+        "Mix everything together and pour onto a parchment lined baking sheet. Cook at 375 until chicken is roasted through.",
+        "Seasonings can vary, no measurements. Just a crapton of seasoning. Like, coat it.",
+        "[optional] Sometimes I like to put tomato wedges in there too.",
+        "I serve with couscous that I've cooked in chicken broth, topped with feta and tzatziki. Naan bread, sliced mini cucumber and red onion on the side. "
+    ]
+}
