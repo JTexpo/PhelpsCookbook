@@ -1,0 +1,33 @@
+{
+    "id":"jello-cookies",
+    "name":"Jello Cookies",
+    "author":"Lazetta Wing",
+    "ingredients":{
+        "Butter": [1.5, "cups"],
+        "Jello": [4, "3oz pkgs"],
+        "Sugar": [1, "cup"],
+        "Egg": [1],
+        "Food coloring [optional]": [1, "recipe amount"],
+        "Vanilla": [1, "tsp"],
+        "Flour": [3.25, "cups"],
+        "Baking Powder": [1, "tsp"],
+        "Baking Soda": [0.5, "tsp"],
+        "Cream of Tartar": [0.25, "tsp"]
+    },
+    "steps":[
+        "For the Jello packages, you may use four different ones, do two of two flavors, or four packages of one flavor.",
+        "Soften the butter.",
+        "Pre-heat oven to 350 degrees.",
+        "In a large bowl, cream together butter and sugar with a mixer -add in egg and vanilla.",
+        "In a separate bowl whisk together flour, baking powder, baking soda and cream of tarter.",
+        "Gradually add flour mixture to the wet ingredients in the mixer.",
+        "Divide the dough into four sections.",
+        "Sprinkle two Tablespoons of jello onto each section and then knead the dough until combined.",
+        "[optional] You can add a few drops of food coloring in, if you'd like the color to be more vibrant.",
+        "Roll dough into 1-inch balls. Roll the balls into the extra jello powder or in the sugar.",
+        "Then place dough onto the baking sheet two inches apart.",
+        "Flatten the dough with the bottom of a glass.",
+        "Bake cookies for 8-10 minutes.",
+        "Remove cookies from the pan and allow to cool on a wire rack."
+    ]
+}

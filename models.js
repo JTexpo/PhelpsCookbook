@@ -17,6 +17,7 @@ export const ALL_FOOD_INFO_FILES = [
     "great-great-grandma-barnes-rhubarb-pie.json",
     "great-great-uncle-charles-ginger-cookies.json",
     "honey-chicken.json",
+    "jello-cookies.json",
     "mexican-street-corn-dip.json",
     "mexican-street-corn.json",
     "moms-measure-nothing-chili.json",
