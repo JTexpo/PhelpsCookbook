@@ -1,0 +1,21 @@
+{
+    "id":"dilly-ranch-cheez-its",
+    "name":"Dilly Ranch Cheez-Its",
+    "author":"Lazetta Wing",
+    "ingredients":{
+        "Cheez-Its": [1, "box"],
+        "Canola Oil": [0.125, "cup"],
+        "Ranch Seasoning": [0.5, "pkg"],
+        "Dill [fresh, minced]": [1, "tbsp"]
+    },
+    "steps":[
+        "Dump cheez it crackers into a large bowl",
+        "Pour oil over top, and gently stir, until all crackers are coated",
+        "Sprinkle ranch seasoning and dill over top, and gently stir again",
+        "Pour onto a half sheet pan",
+        "Place in a COLD oven",
+        "Turn oven to 225 degrees",
+        "Set a timer for 10 minutes - stirring at the 4 and 8 minute mark",
+        "After 10 minutes, remove from oven, and allow to cool"
+    ]
+}

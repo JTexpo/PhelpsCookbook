@@ -7,8 +7,8 @@
         "Yellow Onion": [1, "organic"],
         "Bell Pepper": [1, "organic green"],
         "Spinach [organic, fresh]": [2, "handfuls"],
-        "Basil [organic, fresh]": [1, "pasta amount"],
-        "Oregano [organic, dried]": [1, "pasta amount"],
+        "Basil [organic, fresh]": [1, "recipe amount"],
+        "Oregano [organic, dried]": [1, "recipe amount"],
         "Vegetable Broth [organic]": [1, "cup"],
         "Bone Broth [organic]": [1, "cup"],
         "Grape Tomatoes [organic]": [1, "cup"],
@@ -19,9 +19,9 @@
         "Tomato Paste": [2, "spoonfuls"],
         "Marinara Sauce [organic]": [0.5, "cup"],
         "Spiral Noodles": [1, "box"],
-        "Mozzarella Cheese [shredded]": [1, "pasta amount"],
-        "Parmesan Cheese [shredded]": [1, "pasta amount"],
-        "Black Pepper": [1, "pasta amount"]
+        "Mozzarella Cheese [shredded]": [1, "recipe amount"],
+        "Parmesan Cheese [shredded]": [1, "recipe amount"],
+        "Black Pepper": [1, "recipe amount"]
     },
     "steps":[
         "Dice the onion. In a large pot, brown the ground turkey with half of the diced onion until fully cooked.",

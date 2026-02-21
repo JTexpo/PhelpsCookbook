@@ -9,7 +9,7 @@
         "Butter": [0.25, "cup"],
         "Onion": [0.5, "organic"],
         "Celery": [3, "organic stalks"],
-        "Ground Pepper [organic]": [1, "soup amount"],
+        "Ground Pepper [organic]": [1, "recipe amount"],
         "Bone Broth [organic]": [0.5, "cup"]
     },
     "steps":[
