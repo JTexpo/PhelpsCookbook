@@ -108,21 +108,33 @@ export class Ingredient {
         var sumMap = new Map();
         for (let i = 0; i < ingredientList.length; i++)  {
             let ingredient = ingredientList[i];
+            // First check if we're tracking the plural/singular of this ingredient
+            let ingredient_str_trimmed = ingredient.name.slice(0, -1);
+            let ingredient_str_plural = ingredient.name + "s";
+            if (ingredient.name.endsWith("s") && sumMap.has(ingredient_str_trimmed)) {
+                // We're actually already tracking the singular version of this ingredient!
+                // Start tracking the plural
+                sumMap.set(ingredient.name, sumMap.get(ingredient_str_trimmed));
+                sumMap.delete(ingredient_str_trimmed);
+            } else if ((! ingredient.name.endsWith("s")) && sumMap.has(ingredient_str_plural)) {
+                // We're actually already tracking the plural version of this ingredient!
+                // Set this ingredient's name to plural
+                ingredient.name = ingredient_str_plural;
+            }
             // Determine if we're already tracking this ingredient
             if (sumMap.has(ingredient.name)) {
                 let iMap = sumMap.get(ingredient.name);
                 // In case this is a non-convertible unit, try to accomodate plurality
                 if (ingredient.unit != null) {
-                    console.log("This ingredient is not null...");
                     let unit_str_trimmed = ingredient.unit.slice(0, -1);
                     let unit_str_plural = ingredient.unit + "s";
                     if (ingredient.unit.endsWith("s") && iMap.has(unit_str_trimmed)) {
-                        // We're actually already tracking the singular version of this ingredient!
+                        // We're actually already tracking the singular version of this unit!
                         // Start tracking the plural
                         iMap.set(ingredient.unit, iMap.get(unit_str_trimmed));
                         iMap.delete(unit_str_trimmed);
                     } else if ((! ingredient.unit.endsWith("s")) && iMap.has(unit_str_plural)) {
-                        // We're actually already tracking the plural version of this ingredient!
+                        // We're actually already tracking the plural version of this unit!
                         // Set this ingredient's unit to plural
                         ingredient.unit = unit_str_plural;
                     }
