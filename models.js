@@ -182,6 +182,12 @@ export class Ingredient {
                 sumStr += summedAmount;
                 // Support unitless counts (represented with null unit)
                 if (summedUnit != null) {
+                    // Improve display of undisclosed amounts
+                    if(summedUnit == "recipe amount" && summedAmount > 1)
+                    {
+                        // Make the default amount plural
+                        summedUnit += "s"
+                    }
                     sumStr += " " + summedUnit;
                 }
                 sumStr += ", ";

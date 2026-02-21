@@ -3,15 +3,15 @@
     "name":"Taco Salad",
     "author":"Chari Crawley",
     "ingredients":{
-        "Lettuce": [1, "salad amount"],
-        "Tomatoes": [1, "salad amount"],
-        "Ranch Style Beans": [1, "salad amount"],
-        "Catalina Salad Dressing": [1, "salad amount"],
-        "Canned Black Olives": [1, "salad amount"],
-        "Salsa": [1, "salad amount"],
-        "Cheese [shredded]": [1, "salad amount"],
-        "Tortilla Chips": [1, "salad amount"],
-        "Ground Meat [optional]": [1, "salad amount"]
+        "Lettuce": [1, "recipe amount"],
+        "Tomatoes": [1, "recipe amount"],
+        "Ranch Style Beans": [1, "recipe amount"],
+        "Catalina Salad Dressing": [1, "recipe amount"],
+        "Canned Black Olives": [1, "recipe amount"],
+        "Salsa": [1, "recipe amount"],
+        "Cheese [shredded]": [1, "recipe amount"],
+        "Tortilla Chips": [1, "recipe amount"],
+        "Ground Meat [optional]": [1, "recipe amount"]
     },
     "steps":[
         "Make salad with lettuce and tomatoes.",
