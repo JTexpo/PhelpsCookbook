@@ -11,7 +11,7 @@
         "Chili Powder": [4, "tbsp"],
         "Brown Sugar": [2, "tbsp"],
         "Jalapeño": [4, "peppers"],
-        "Onion": [1],
+        "Onion": [1, "medium"],
         "Flour": [1, "recipe amount"]
     },
     "steps":[

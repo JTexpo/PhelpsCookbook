@@ -1,0 +1,27 @@
+{
+    "id":"grandma-shortys-split-pea-soup",
+    "name":"Grandma Shorty's Split Pea Soup",
+    "author":"Grandma Phelps (Shorty)",
+    "ingredients":{
+        "Green Split Peas": [1, "lb"],
+        "Meaty Ham Bone": [1],
+        "Onion": [1, "large"],
+        "Salt": [1, "tsp"],
+        "Black Pepper": [0.5, "tsp"],
+        "Marjoram": [0.25, "tsp"],
+        "Celery Stalks": [3, "medium"],
+        "Carrots": [2, "medium"]
+    },
+    "steps":[
+        "Cover peas with 2 quarts cold water and soak overnight (or simmer gently 2 minutes, then soak 1 hour this is what I do).",
+        "Slice 1 1/2 cups of onions.",
+        "Add ham bone, onion, and seasonings.",
+        "Bring to boiling; cover reduce heat, and simmer (don't boil) 1 1/2 hours.",
+        "Stir occasionally.",
+        "Remove bone; cut off meat and dice.",
+        "Dice 1 cup each of carrots and celery tops leaves included.",
+        "Return meat to soup, add celery tops and carrots.",
+        "Cook slowly, uncovered 30 to 40 minutes, I usually cook it another hour or more until it thickens.",
+        "Salt to taste. Serves 6 to 8."
+    ]
+}
