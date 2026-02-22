@@ -1,0 +1,22 @@
+{
+    "id":"grandma-johnsons-fried-rice",
+    "name":"Grandma Johnson's Fried Rice",
+    "author":"Grandma Johnson",
+    "ingredients":{
+        "Meat": [2, "cups"],
+        "Onion": [0.5, "medium"],
+        "Bell Pepper": [1, "medium green"],
+        "Eggs": [2],
+        "Soy Sauce": [0.5, "cup"],
+        "Water": [0.5, "cup"],
+        "Sugar": [1, "tbsp"],
+        "Rice": [1.5, "cups"]
+    },
+    "steps":[
+        "This may be used with cooked turkey, ham, pork, or shrimp.",
+        "Brown meat in a little oil along with the chopped onion (1/2 cup) and chopped green peppers.",
+        "Prepare separately 2 - 3 cups of rice - set aside.",
+        "Beat 1 or 2 eggs and fry separately. Chop up and add to meat and onion mixture. Then add the rice and mix together in a large skillet or wok.",
+        "Mix soy sauce and water with 1 to 2 T of sugar. Pour over rice mixture and cook another 3 to 5 minutes before serving."    
+    ]
+}

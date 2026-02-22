@@ -1,0 +1,31 @@
+{
+    "id":"papa-kuhns-arizona-chili",
+    "name":"Papa Kuhn's Arizona Chili",
+    "author":"Papa Kuhn",
+    "ingredients":{
+        "Ground Turkey": [2, "lbs"],
+        "Whole Tomatoes": [1, "can"],
+        "Tomato Sauce": [2, "cans"],
+        "Ranch Style Beans": [3, "cans"],
+        "Tabasco Sauce": [1, "recipe amount"],
+        "Chili Powder": [4, "tbsp"],
+        "Brown Sugar": [2, "tbsp"],
+        "Jalapeño": [4, "peppers"],
+        "Onion": [1, "medium"],
+        "Flour": [1, "recipe amount"]
+    },
+    "steps":[
+        "Dice onions (amount to suit your taste, usually 1 - 1 1/2).",
+        "Splice peppers (4-6 jalapeños). The thinner the better.",
+        "Brown turkey. At very end add peppers and onions.",
+        "Add 3 cans of ranch beans.",
+        "Add 2 cans of tomato sauce.",
+        "If you have a blender, place can of whole tomatoes in blender and momentarily turn on. Do not liquify, just chop. No blender, chop by hand. Add to chili.",
+        "Add chili powder to suit your taste. Usually about four tablespoons.",
+        "Add 2-3 tablespoons of brown sugar.",
+        "While simmering, add flour to thicken",
+        "Add tabasco to suit taste.",
+        "Simmer for a couple of hours.",
+        "This is best if allowed to set overnight in refrigerator and served the next day."
+    ]
+}
