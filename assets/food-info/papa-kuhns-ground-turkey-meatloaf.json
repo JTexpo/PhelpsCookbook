@@ -1,0 +1,22 @@
+{
+    "id":"papa-kuhns-ground-turkey-meatloaf",
+    "name":"Papa Kuhn's Ground Turkey Meatloaf",
+    "author":"Papa Kuhn",
+    "ingredients":{
+        "Ground Turkey": [2, "lbs"],
+        "Onion": [0.5],
+        "Bell Pepper [optional]": [1, "recipe amount"],
+        "Salt": [1, "recipe amount"],
+        "Egg": [1],
+        "Corn Flakes": [1, "recipe amount"],
+        "Catsup or Barbecue Sauce": [2, "tbsp"]
+    },
+    "steps":[
+        "Chop about 1/4 - 1/2 cup of onion.",
+        "[optional] Chop green peppers.",
+        "Mix the turkey, onion, green peppers (optional), salt, and egg.",
+        "Add crushed corn flakes until consistency is satisfactory. It should be thick enough so it will slice properly when cooked.",
+        "Place in loaf pan. Smear catsup or barbecue sauce on top of meat.",
+        "Bake for 1 hour @ 350 - 375 oven."
+    ]
+}
