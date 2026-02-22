@@ -12,6 +12,7 @@ export const ALL_FOOD_INFO_FILES = [
     "easy-taco-soup.json",
     "eggroll-in-a-bowl.json",
     "grandma-shortys-jewish-coffee-cake.json",
+    "grandma-johnson-fried-rice.json",
     "grandmas-thanksgiving-dressing.json",
     "grandmoms-cucumber-sandwiches.json",
     "grandmoms-strawberry-cake.json",
@@ -30,6 +31,7 @@ export const ALL_FOOD_INFO_FILES = [
     "pumpkin-sausage-soup.json",
     "sausage-n-bacon-grits-muffins.json",
     "sausage-balls.json",
+    "split-pea-soup.json",
     "shwarma-chicken-chickpea-sheet-pan.json",
     "southwest-quinoa-salad.json",
     "spinach-balls.json",
@@ -39,6 +41,7 @@ export const ALL_FOOD_INFO_FILES = [
     "tts-garden-spaghetti.json",
     "tts-turkey-chili.json",
     "vegan-chili.json",
+    "vegan-chicken-alfredo.json",
     "zuchini-boats.json",
 ]
 

@@ -1,0 +1,21 @@
+{
+    "id":"vegan-chicken-alfredo",
+    "name":"Vegan Chicken Alfredo",
+    "author":"Justin Esposito",
+    "ingredients":{
+        "Alfredo Sauce": [1, "jar"],
+        "Vegan Cheese": [7, "oz"],
+        "Fajita Veggies": [1, "bag"],
+        "Garlic": [5, "cloves"],
+        "Daring Chicken": [1, "bag"],
+        "Pasta": [4, "servings"],
+        "Roasted Cashews": [1, "cup"]
+    },
+    "steps":[
+    "Add garlic to a pan (with a lid) and let cook for 1 minuet, before adding in the immitation chicken.",
+    "When the chicken is done cooking, add in the fajita veggies.",
+    "Boil watter in a pot and cook the pasta",
+    "Once the veggies are done cooking, add in the cashews, alfredo sauce, and cheese - then stir.",
+    "Once when the pasta is done, add into the pan and serve!"
+        ]
+}

@@ -1,0 +1,24 @@
+{
+    "id":"split-pea-soup",
+    "name":"Split Pea Soup",
+    "author":"Grandma Phelps (Shorty)",
+    "ingredients":{
+        "Split Peas": [1, "bag"],
+        "Ham": [1, ""],
+        "Onion": [1.5, "cup diced"],
+        "Salt": [1, "tsp"],
+        "Pepper": [0.5, "tsp"],
+        "Marjoram": [0.25, "tsp"],
+        "Celery": [1, "cup diced"],
+        "Carrot": [1, "cup diced"]
+    },
+    "steps":[
+        "Cover peas with 2 quarts cold water and soak overnight (or simmer gently 21 minutes, then soak 1 hour this is what I do).",
+        "add ham bone, onion, and seasonings.",
+        "Bring to boiling; cover reduce heat, and simmer (don't boil) 1 1/2 hours.",
+        "Stir occasionally.",
+        "Remove bone; cut off meat and dice.",
+        "Return meat to soup, add vegetables.",
+        "Cook slowly, uncovered 30 to 40 minutes, I usually cook it another hour or more until it thickens."
+    ]
+}
