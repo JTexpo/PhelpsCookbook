@@ -1,0 +1,19 @@
+{
+    "id":"grandma-johnsons-chocolate-icing",
+    "name":"Grandma Johnson's Chocolate Icing",
+    "author":"Grandma Johnson",
+    "ingredients":{
+        "Cocoa": [4, "tbsp"],
+        "Oleo": [1, "stick"],
+        "Milk": [6, "tbsp"],
+        "Powdered Sugar": [4, "cups"],
+        "Vanilla": [1, "tsp"],
+        "Pecans": [1, "cup"]
+    },
+    "steps":[
+        "Boil in saucepan: cocoa, oleo, and milk.",   
+        "Add powdered sugar, vanilla, and pecans (omit pecans due to Ethan's allergy), then mix.",
+        "Pour over warm cake.",
+        "Half of this recipe is enough unless you like a thick frosting."
+    ]
+}

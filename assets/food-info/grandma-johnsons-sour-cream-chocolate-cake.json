@@ -1,0 +1,22 @@
+{
+    "id":"grandma-johnsons-sour-cream-chocolate-cake",
+    "name":"Grandma Johnson's Sour Cream Chocolate Cake",
+    "author":"Grandma Johnson",
+    "ingredients":{
+        "Sugar": [1.5, "cups"],
+        "Eggs": [2],
+        "Sour Cream": [1, "cup"],
+        "Cocoa": [0.5, "cup"],
+        "Water": [0.5, "cup"],
+        "Baking Soda": [1, "tsp"],
+        "Flour": [1.5, "cups"],
+        "Vanilla": [1, "tsp"]
+    },
+    "steps":[
+        "Beat the sugar and eggs until light.",
+        "Add sour cream.",
+        "Mix together cocoa, hot water, and soda; add to mixture.",
+        "Add flour and vanilla.",
+        "Pour into pan and bake @ 350 until toothpick comes out clear."
+    ]
+}
