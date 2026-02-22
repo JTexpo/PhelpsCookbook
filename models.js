@@ -26,6 +26,7 @@ export const ALL_FOOD_INFO_FILES = [
     "moms-mexican-casserole.json",
     "monterey-chicken.json",
     "no-waste-quiche.json",
+    "papa-kuhns-arizona-chili.json",
     "poppy-seed-loaf-delight.json",
     "potato-salad.json",
     "pumpkin-sausage-soup.json",
